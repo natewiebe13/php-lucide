@@ -1,0 +1,8 @@
+/.github/       export-ignore
+/bin/           export-ignore
+/lucide/        export-ignore
+/tests/         export-ignore
+/.editorconfig  export-ignore
+/.gitattributes export-ignore
+/.gitignore     export-ignore
+/.gitmodules    export-ignore

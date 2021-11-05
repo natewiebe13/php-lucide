@@ -1,0 +1,42 @@
+{
+    "name": "natewiebe13/php-lucide",
+    "type": "library",
+    "description": "PHP library for Lucide icons",
+    "keywords": [
+        "lucide",
+        "icons",
+        "svg"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nate Wiebe",
+            "email": "nate@northern.co"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Lucide\\": "src/"
+        }
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ],
+    "require": {
+        "php": ">=7.4"
+    },
+    "require-dev": {
+        "ext-dom": "*",
+        "ext-json": "*",
+        "ext-libxml": "*",
+        "ext-simplexml": "*",
+        "phpunit/phpunit": "^9.5"
+    },
+    "scripts": {
+        "build": "bin/build",
+        "test": "phpunit --verbose tests"
+    }
+}
