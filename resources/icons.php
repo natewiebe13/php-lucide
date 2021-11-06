@@ -2556,6 +2556,17 @@ return array (
   <path d="M4 6v12c0 1.1.9 2 2 2h14v-4"></path>
   <path d="M18 12a2 2 0 00-2 2c0 1.1.9 2 2 2h4v-4h-4z"></path>
 ',
+  'wand' => '
+  <path d="M15 4V2"></path>
+  <path d="M15 16v-2"></path>
+  <path d="M8 9h2"></path>
+  <path d="M20 9h2"></path>
+  <path d="M17.8 11.8 19 13"></path>
+  <path d="M15 9h0"></path>
+  <path d="M17.8 6.2 19 5"></path>
+  <path d="M3 21 12 12"></path>
+  <path d="M12.2 6.2 11 5"></path>
+',
   'watch' => '
   <circle cx="12" cy="12" r="7"></circle>
   <polyline points="12 9 12 12 13.5 13.5"></polyline>
