@@ -436,11 +436,11 @@ return array (
 ',
   'chevron-first' => '
   <polyline points="17 18 11 12 17 6"></polyline>
-  <path d="M7 6V18"></path>
+  <path d="M7 6v12"></path>
 ',
   'chevron-last' => '
   <polyline points="7 18 13 12 7 6"></polyline>
-  <path d="M17 6V18"></path>
+  <path d="M17 6v12"></path>
 ',
   'chevron-left' => '
   <polyline points="15 18 9 12 15 6"></polyline>
@@ -1006,6 +1006,9 @@ return array (
   'folder-minus' => '
   <path d="M22 19a2 2 0 01-2 2H4a2 2 0 01-2-2V5a2 2 0 012-2h5l2 3h9a2 2 0 012 2z"></path>
   <line x1="9" y1="14" x2="15" y2="14"></line>
+',
+  'folder-open' => '
+  <path d="M6 17l2-5h14l-3 8a2 2 0 01-2 1H4a2 2 0 01-2-2V5a2 2 0 012-2h5l2 3h7a2 2 0 012 2v4"></path>
 ',
   'folder-plus' => '
   <path d="M22 19a2 2 0 01-2 2H4a2 2 0 01-2-2V5a2 2 0 012-2h5l2 3h9a2 2 0 012 2z"></path>
@@ -2561,11 +2564,11 @@ return array (
   <path d="M15 16v-2"></path>
   <path d="M8 9h2"></path>
   <path d="M20 9h2"></path>
-  <path d="M17.8 11.8 19 13"></path>
+  <path d="M17.8 11.8L19 13"></path>
   <path d="M15 9h0"></path>
-  <path d="M17.8 6.2 19 5"></path>
-  <path d="M3 21 12 12"></path>
-  <path d="M12.2 6.2 11 5"></path>
+  <path d="M17.8 6.2L19 5"></path>
+  <path d="M3 21l9-9"></path>
+  <path d="M12.2 6.2L11 5"></path>
 ',
   'watch' => '
   <circle cx="12" cy="12" r="7"></circle>
