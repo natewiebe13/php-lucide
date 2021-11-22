@@ -17,11 +17,11 @@ return array (
   <path d="M9 13l2 2 4-4"></path>
 ',
   'alarm-clock-off' => '
-  <path d="M19.94 14A8 8 0 0 0 10 5.25m8.13 12.89A8 8 0 1 1 6.87 6.86"></path>
-  <path d="m22 6-3-3"></path>
-  <path d="m6 19-2 2"></path>
-  <path d="m2 2 20 20"></path>
-  <path d="M4 4 2 6"></path>
+  <path d="M19.94 14A8 8 0 0010 5.25m8.13 12.89A8 8 0 116.87 6.86"></path>
+  <path d="M22 6l-3-3"></path>
+  <path d="M6 19l-2 2"></path>
+  <path d="M2 2l20 20"></path>
+  <path d="M4 4L2 6"></path>
 ',
   'alarm-clock' => '
   <circle cx="12" cy="13" r="8"></circle>
@@ -1314,7 +1314,7 @@ return array (
   <line x1="14" y1="20" x2="5" y2="20"></line>
   <line x1="15" y1="4" x2="9" y2="20"></line>
 ',
-  'jersey-pound' => '
+  'japanese-yen' => '
   <path d="M12 9.5V21m0-11.5L6 3m6 6.5L18 3"></path>
   <path d="M6 15h12"></path>
   <path d="M6 11h12"></path>
@@ -1462,8 +1462,8 @@ return array (
   <path d="M11 12H3"></path>
   <path d="M16 6H3"></path>
   <path d="M16 18H3"></path>
-  <path d="M18 9V15"></path>
-  <path d="M21 12H15"></path>
+  <path d="M18 9v6"></path>
+  <path d="M21 12h-6"></path>
 ',
   'list-x' => '
   <path d="M11 12H3"></path>
@@ -1793,7 +1793,7 @@ return array (
   <path d="M22 12A10 10 0 0012 2v10z"></path>
 ',
   'piggy-bank' => '
-  <path d="M19 5c-1.5 0-2.8 1.4-3 2-3.5-1.5-11-.3-11 5 0 1.8 0 3 2 4.5V20h4v-2h3v2h4v-4c1-.5 1.7-1 2-2h2v-4h-2c0-1-.5-1.5-1-2h0V5Z"></path>
+  <path d="M19 5c-1.5 0-2.8 1.4-3 2-3.5-1.5-11-.3-11 5 0 1.8 0 3 2 4.5V20h4v-2h3v2h4v-4c1-.5 1.7-1 2-2h2v-4h-2c0-1-.5-1.5-1-2h0V5z"></path>
   <path d="M2 9v1c0 1.1.9 2 2 2h1"></path>
   <path d="M16 11h0"></path>
 ',
@@ -2365,6 +2365,12 @@ return array (
   <path d="M13 5v2"></path>
   <path d="M13 17v2"></path>
   <path d="M13 11v2"></path>
+',
+  'timer-off' => '
+  <path d="M10 2h4"></path>
+  <path d="M7.43 7.433A8 8 0 0118.566 18.57M4.582 11A8 8 0 0015 21.419"></path>
+  <path d="M2 2l20 20"></path>
+  <path d="M12 12v-2"></path>
 ',
   'timer-reset' => '
   <path d="M10 2h4"></path>
