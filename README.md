@@ -12,6 +12,13 @@ Install `php-lucide` using [Composer](https://getcomposer.org/).
 composer require natewiebe13/php-lucide
 ```
 
+## Versioning
+
+This library uses [Semantic Versioning](https://semver.org/) as a versioning strategy. This covers the public API, but does not guarantee
+backwards compatibility with breaking changes made by Lucide (ex: icon name changes). Any large backwards compatibility breaks made by
+Lucide may result in a new major version of this library, but will be determined on a case by case basis. In the event that an icon naming
+change is made, the Aliases feature can be used to assist migrating to the new icon name.
+
 ## Usage
 
 ### Icons
