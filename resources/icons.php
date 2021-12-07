@@ -138,6 +138,12 @@ return array (
   <polyline points="12 8 8 12 12 16"></polyline>
   <line x1="16" y1="12" x2="8" y2="12"></line>
 ',
+  'arrow-left-right' => '
+  <polyline points="17 11 21 7 17 3"></polyline>
+  <line x1="21" y1="7" x2="9" y2="7"></line>
+  <polyline points="7 21 3 17 7 13"></polyline>
+  <line x1="15" y1="17" x2="3" y2="17"></line>
+',
   'arrow-left' => '
   <line x1="19" y1="12" x2="5" y2="12"></line>
   <polyline points="12 19 5 12 12 5"></polyline>
@@ -1745,7 +1751,7 @@ return array (
 ',
   'pencil' => '
   <line x1="18" y1="2" x2="22" y2="6"></line>
-  <path d="M7.5 20.5L19 9l-4-4L3.5 16.5 2 22l5.5-1.5z"></path>
+  <path d="M7.5 20.5L19 9l-4-4L3.5 16.5 2 22z"></path>
 ',
   'percent' => '
   <line x1="19" y1="5" x2="5" y2="19"></line>
@@ -2166,14 +2172,14 @@ return array (
   <path d="M16 20a2 2 0 001.56-3.25 8 8 0 10-11.12 0A2 2 0 008 20"></path>
 ',
   'slack' => '
-  <path d="M14.5 10c-.83 0-1.5-.67-1.5-1.5v-5c0-.83.67-1.5 1.5-1.5s1.5.67 1.5 1.5v5c0 .83-.67 1.5-1.5 1.5z"></path>
-  <path d="M20.5 10H19V8.5c0-.83.67-1.5 1.5-1.5s1.5.67 1.5 1.5-.67 1.5-1.5 1.5z"></path>
-  <path d="M9.5 14c.83 0 1.5.67 1.5 1.5v5c0 .83-.67 1.5-1.5 1.5S8 21.33 8 20.5v-5c0-.83.67-1.5 1.5-1.5z"></path>
-  <path d="M3.5 14H5v1.5c0 .83-.67 1.5-1.5 1.5S2 16.33 2 15.5 2.67 14 3.5 14z"></path>
-  <path d="M14 14.5c0-.83.67-1.5 1.5-1.5h5c.83 0 1.5.67 1.5 1.5s-.67 1.5-1.5 1.5h-5c-.83 0-1.5-.67-1.5-1.5z"></path>
-  <path d="M15.5 19H14v1.5c0 .83.67 1.5 1.5 1.5s1.5-.67 1.5-1.5-.67-1.5-1.5-1.5z"></path>
-  <path d="M10 9.5C10 8.67 9.33 8 8.5 8h-5C2.67 8 2 8.67 2 9.5S2.67 11 3.5 11h5c.83 0 1.5-.67 1.5-1.5z"></path>
-  <path d="M8.5 5H10V3.5C10 2.67 9.33 2 8.5 2S7 2.67 7 3.5 7.67 5 8.5 5z"></path>
+  <rect x="13" y="2" width="3" height="8" rx="1.5"></rect>
+  <path d="M19 8.5v1.5h1.5a1.5 1.5 0 1 0-1.5-1.5"></path>
+  <rect x="8" y="14" width="3" height="8" rx="1.5"></rect>
+  <path d="M5 15.5v-1.5h-1.5a1.5 1.5 0 1 0 1.5 1.5"></path>
+  <rect x="14" y="13" width="8" height="3" rx="1.5"></rect>
+  <path d="M15.5 19h-1.5v1.5a1.5 1.5 0 1 0 1.5-1.5"></path>
+  <rect x="2" y="8" width="8" height="3" rx="1.5"></rect>
+  <path d="M8.5 5h1.5v-1.5a1.5 1.5 0 1 0-1.5 1.5"></path>
 ',
   'slash' => '
   <circle cx="12" cy="12" r="10"></circle>
