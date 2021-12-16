@@ -524,6 +524,54 @@ return array (
   <path d="M16 4h2a2 2 0 012 2v14a2 2 0 01-2 2H6a2 2 0 01-2-2V6a2 2 0 012-2h2"></path>
   <rect x="8" y="2" width="8" height="4" rx="1" ry="1"></rect>
 ',
+  'clock-1' => '
+  <circle cx="12" cy="12" r="10"></circle>
+  <polyline points="12 6 12 12 14.5 8"></polyline>
+',
+  'clock-10' => '
+  <circle cx="12" cy="12" r="10"></circle>
+  <polyline points="12 6 12 12 8 10"></polyline>
+',
+  'clock-11' => '
+  <circle cx="12" cy="12" r="10"></circle>
+  <polyline points="12 6 12 12 9.5 8"></polyline>
+',
+  'clock-12' => '
+  <circle cx="12" cy="12" r="10"></circle>
+  <polyline points="12 6 12 12"></polyline>
+',
+  'clock-2' => '
+  <circle cx="12" cy="12" r="10"></circle>
+  <polyline points="12 6 12 12 16 10"></polyline>
+',
+  'clock-3' => '
+  <circle cx="12" cy="12" r="10"></circle>
+  <polyline points="12 6 12 12 16.5 12"></polyline>
+',
+  'clock-4' => '
+  <circle cx="12" cy="12" r="10"></circle>
+  <polyline points="12 6 12 12 16 14"></polyline>
+',
+  'clock-5' => '
+  <circle cx="12" cy="12" r="10"></circle>
+  <polyline points="12 6 12 12 14.5 16"></polyline>
+',
+  'clock-6' => '
+  <circle cx="12" cy="12" r="10"></circle>
+  <polyline points="12 6 12 12 12 16.5"></polyline>
+',
+  'clock-7' => '
+  <circle cx="12" cy="12" r="10"></circle>
+  <polyline points="12 6 12 12 9.5 16"></polyline>
+',
+  'clock-8' => '
+  <circle cx="12" cy="12" r="10"></circle>
+  <polyline points="12 6 12 12 8 14"></polyline>
+',
+  'clock-9' => '
+  <circle cx="12" cy="12" r="10"></circle>
+  <polyline points="12 6 12 12 7.5 12"></polyline>
+',
   'clock' => '
   <circle cx="12" cy="12" r="10"></circle>
   <polyline points="12 6 12 12 16 14"></polyline>
@@ -1996,6 +2044,19 @@ return array (
   <path d="M7 21h10"></path>
   <path d="M12 3v18"></path>
   <path d="M3 7h2c2 0 5-1 7-2 2 1 5 2 7 2h2"></path>
+',
+  'scan-line' => '
+  <path d="M3 7V5a2 2 0 012-2h2"></path>
+  <path d="M17 3h2a2 2 0 012 2v2"></path>
+  <path d="M21 17v2a2 2 0 01-2 2h-2"></path>
+  <path d="M7 21H5a2 2 0 01-2-2v-2"></path>
+  <line x1="7" y1="12" x2="17" y2="12"></line>
+',
+  'scan' => '
+  <path d="M3 7V5a2 2 0 012-2h2"></path>
+  <path d="M17 3h2a2 2 0 012 2v2"></path>
+  <path d="M21 17v2a2 2 0 01-2 2h-2"></path>
+  <path d="M7 21H5a2 2 0 01-2-2v-2"></path>
 ',
   'scissors' => '
   <circle cx="6" cy="6" r="3"></circle>
