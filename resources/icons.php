@@ -1851,6 +1851,11 @@ return array (
   <path d="M2 9v1c0 1.1.9 2 2 2h1"></path>
   <path d="M16 11h0"></path>
 ',
+  'pin' => '
+  <path d="M12 21v-7"></path>
+  <path d="M9 3v5l-2 4v2h10m0 0h-5m5 0v-2l-2-4V3"></path>
+  <path d="M7 3h10"></path>
+',
   'pipette' => '
   <path d="M2 22l2-2h3l7-7"></path>
   <path d="M4 20v-3l7-7"></path>
