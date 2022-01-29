@@ -2454,6 +2454,16 @@ return array (
   <polyline points="4 17 10 11 4 5"></polyline>
   <line x1="12" y1="19" x2="20" y2="19"></line>
 ',
+  'text-cursor-input' => '
+  <path d="M5.3 4h.9C7.7 4 9 5.3 9 6.7m0 0v10.5c0 1.6-1.1 2.7-2.7 2.7h-1M9 6.7v10.6a2.6 2.6 0 0 0 2.7 2.7h1M9 6.7C9 5.2 10.2 4 11.8 4h.9"></path>
+  <path d="M13.1 7.9h6.8c1.1 0 2.1 1 2.1 2.1v4c0 1.1-.9 2.1-2.1 2.1h-6.8"></path>
+  <path d="M4.8 16.1h-.7C3 16.1 2 15.1 2 14v-4c0-1.1 1-2.1 2.1-2.1h.7"></path>
+',
+  'text-cursor' => '
+  <path d="M17 22h-1a4 4 0 0 1-4-4V6a4 4 0 0 1 4-4h1"></path>
+  <path d="M7 22h1a4 4 0 0 0 4-4v-1"></path>
+  <path d="M7 2h1a4 4 0 0 1 4 4v1"></path>
+',
   'thermometer-snowflake' => '
   <path d="M2 12h10"></path>
   <path d="M9 4v16"></path>
