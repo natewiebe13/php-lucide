@@ -719,6 +719,14 @@ return array (
   <circle cx="12" cy="12" r="10"></circle>
   <path d="M12 18a6 6 0 000-12v12z"></path>
 ',
+  'cookie' => '
+	<path d="M12 2a10 10 0 1 0 10 10 4 4 0 0 1-5-5 4 4 0 0 1-5-5"></path>
+	<path d="M8.5 8.5v.01"></path>
+	<path d="M16 15.5v.01"></path>
+	<path d="M12 12v.01"></path>
+	<path d="M11 17v.01"></path>
+	<path d="M7 14v.01"></path>
+',
   'copy' => '
   <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
   <path d="M5 15H4a2 2 0 01-2-2V4a2 2 0 012-2h9a2 2 0 012 2v1"></path>
