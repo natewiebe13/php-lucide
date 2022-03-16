@@ -332,6 +332,11 @@ return array (
   <line x1="18" y1="20" x2="18" y2="4"></line>
   <line x1="6" y1="20" x2="6" y2="16"></line>
 ',
+  'baseline' => '
+  <path d="M4 20h16"></path>
+  <path d="M6 16l6-12 6 12"></path>
+  <path d="M8 12h8"></path>
+',
   'battery-charging' => '
   <path d="M14 7h2a2 2 0 012 2v6a2 2 0 01-2 2h-3"></path>
   <path d="M7 7H4a2 2 0 00-2 2v6a2 2 0 002 2h2"></path>
@@ -1522,6 +1527,17 @@ return array (
 ',
   'key' => '
   <path d="M21 2l-2 2m-7.61 7.61a5.5 5.5 0 11-7.778 7.778 5.5 5.5 0 017.777-7.777zm0 0L15.5 7.5m0 0l3 3L22 7l-3-3m-3.5 3.5L19 4"></path>
+',
+  'keyboard' => '
+  <rect x="2" y="4" width="20" height="16" rx="2" ry="2"></rect>
+  <path d="M6 8h.001"></path>
+  <path d="M10 8h.001"></path>
+  <path d="M14 8h.001"></path>
+  <path d="M18 8h.001"></path>
+  <path d="M8 12h.001"></path>
+  <path d="M12 12h.001"></path>
+  <path d="M16 12h.001"></path>
+  <path d="M7 16h10"></path>
 ',
   'landmark' => '
   <line x1="3" y1="22" x2="21" y2="22"></line>
