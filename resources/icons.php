@@ -96,7 +96,7 @@ return array (
   <rect x="9" y="14" width="9" height="6" rx="2"></rect>
   <path d="M22 22V2"></path>
 ',
-  'align-horizonal-distribute-center' => '
+  'align-horizontal-distribute-center' => '
   <rect x="4" y="5" width="6" height="14" rx="2"></rect>
   <rect x="14" y="7" width="6" height="10" rx="2"></rect>
   <path d="M17 22v-5"></path>
@@ -104,13 +104,13 @@ return array (
   <path d="M7 22v-3"></path>
   <path d="M7 5V2"></path>
 ',
-  'align-horizonal-distribute-end' => '
+  'align-horizontal-distribute-end' => '
   <rect x="4" y="5" width="6" height="14" rx="2"></rect>
   <rect x="14" y="7" width="6" height="10" rx="2"></rect>
   <path d="M10 2v20"></path>
   <path d="M20 2v20"></path>
 ',
-  'align-horizonal-distribute-start' => '
+  'align-horizontal-distribute-start' => '
   <rect x="4" y="5" width="6" height="14" rx="2"></rect>
   <rect x="14" y="7" width="6" height="10" rx="2"></rect>
   <path d="M4 2v20"></path>
@@ -2635,8 +2635,8 @@ return array (
   <line x1="12" y1="18" x2="12.01" y2="18"></line>
 ',
   'tag' => '
-  <path d="M20.59 13.41l-7.17 7.17a2 2 0 01-2.83 0L2 12V2h10l8.59 8.59a2 2 0 010 2.82z"></path>
-  <line x1="7" y1="7" x2="7.01" y2="7"></line>
+  <path d="M2 12V2h10l9.44 9.44a2 2 0 0 1 0 2.82l-7.18 7.18a2 2 0 0 1-2.82 0L2 12Z"></path>
+  <path d="M7 7h.01"></path>
 ',
   'target' => '
   <circle cx="12" cy="12" r="10"></circle>
