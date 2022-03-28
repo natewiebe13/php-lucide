@@ -952,6 +952,45 @@ return array (
   <line x1="18" y1="9" x2="12" y2="15"></line>
   <line x1="12" y1="9" x2="18" y2="15"></line>
 ',
+  'dice-1' => '
+  <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+  <path d="M12 12h.01"></path>
+',
+  'dice-2' => '
+  <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+  <path d="M15 9h.01"></path>
+  <path d="M9 15h.01"></path>
+',
+  'dice-3' => '
+  <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+  <path d="M16 8h.01"></path>
+  <path d="M12 12h.01"></path>
+  <path d="M8 16h.01"></path>
+',
+  'dice-4' => '
+  <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+  <path d="M16 8h.01"></path>
+  <path d="M8 8h.01"></path>
+  <path d="M8 16h.01"></path>
+  <path d="M16 16h.01"></path>
+',
+  'dice-5' => '
+  <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+  <path d="M16 8h.01"></path>
+  <path d="M8 8h.01"></path>
+  <path d="M8 16h.01"></path>
+  <path d="M16 16h.01"></path>
+  <path d="M12 12h.01"></path>
+',
+  'dice-6' => '
+  <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+  <path d="M16 8h.01"></path>
+  <path d="M16 12h.01"></path>
+  <path d="M16 16h.01"></path>
+  <path d="M8 8h.01"></path>
+  <path d="M8 12h.01"></path>
+  <path d="M8 16h.01"></path>
+',
   'disc' => '
   <circle cx="12" cy="12" r="10"></circle>
   <circle cx="12" cy="12" r="3"></circle>
@@ -2214,6 +2253,12 @@ return array (
   'rewind' => '
   <polygon points="11 19 2 12 11 5 11 19"></polygon>
   <polygon points="22 19 13 12 22 5 22 19"></polygon>
+',
+  'rocket' => '
+  <path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 00-2.91-.09z"></path>
+  <path d="M12 15l-3-3a22 22 0 012-3.95A12.88 12.88 0 0122 2c0 2.72-.78 7.5-6 11a22.35 22.35 0 01-4 2z"></path>
+  <path d="M9 12H4s.55-3.03 2-4c1.62-1.08 5 0 5 0"></path>
+  <path d="M12 15v5s3.03-.55 4-2c1.08-1.62 0-5 0-5"></path>
 ',
   'rocking-chair' => '
   <polyline points="3.5 2 6.5 12.5 18 12.5"></polyline>
