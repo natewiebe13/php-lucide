@@ -1348,6 +1348,13 @@ return array (
   <line x1="3" y1="12" x2="9" y2="12"></line>
   <line x1="15" y1="12" x2="21" y2="12"></line>
 ',
+  'git-fork' => '
+  <circle cx="12" cy="18" r="3"></circle>
+  <circle cx="6" cy="6" r="3"></circle>
+  <circle cx="18" cy="6" r="3"></circle>
+  <path d="M18 9v1a2 2 0 01-2 2H8a2 2 0 01-2-2V9"></path>
+  <path d="M12 12v3"></path>
+',
   'git-merge' => '
   <circle cx="18" cy="18" r="3"></circle>
   <circle cx="6" cy="6" r="3"></circle>
@@ -2461,14 +2468,14 @@ return array (
   <line x1="4" y1="4" x2="9" y2="9"></line>
 ',
   'sidebar-close' => '
-  <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
-  <line x1="9" y1="3" x2="9" y2="21"></line>
-  <path d="M17 16l-4-4 4-4"></path>
+  <path d="M19 3H5a2 2 0 00-2 2v14a2 2 0 002 2h14a2 2 0 002-2V5a2 2 0 00-2-2z"></path>
+  <path d="M9 3v18"></path>
+  <path d="M16 15l-3-3 3-3"></path>
 ',
   'sidebar-open' => '
-  <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
-  <line x1="9" y1="3" x2="9" y2="21"></line>
-  <path d="M13 8l4 4-4 4"></path>
+  <path d="M19 3H5a2 2 0 00-2 2v14a2 2 0 002 2h14a2 2 0 002-2V5a2 2 0 00-2-2z"></path>
+  <path d="M9 3v18"></path>
+  <path d="M14 9l3 3-3 3"></path>
 ',
   'sidebar' => '
   <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
