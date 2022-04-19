@@ -19,12 +19,6 @@
             "Lucide\\": "src/"
         }
     },
-    "repositories": [
-        {
-            "type": "composer",
-            "url": "https://asset-packagist.org"
-        }
-    ],
     "require": {
         "php": ">=7.4"
     },
