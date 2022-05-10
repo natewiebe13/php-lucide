@@ -70,7 +70,7 @@ return array (
   <line x1="12" y1="16" x2="12.01" y2="16"></line>
 ',
   'alert-triangle' => '
-  <path d="M10.29 3.86 1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"></path>
+  <path d="M21.73 18l-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21H20A2 2 0 0 0 21.73 18Z"></path>
   <line x1="12" y1="9" x2="12" y2="13"></line>
   <line x1="12" y1="17" x2="12.01" y2="17"></line>
 ',
@@ -655,6 +655,12 @@ return array (
   'circle' => '
   <circle cx="12" cy="12" r="10"></circle>
 ',
+  'clapperboard' => '
+  <path d="M4 11v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8H4Z"></path>
+  <path d="m4 11-.88-2.87a2 2 0 0 1 1.33-2.5l11.48-3.5a2 2 0 0 1 2.5 1.32l.87 2.87L4 11.01Z"></path>
+  <path d="m6.6 4.99 3.38 4.2"></path>
+  <path d="m11.86 3.38 3.38 4.2"></path>
+',
   'clipboard-check' => '
   <path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"></path>
   <path d="M15 2H9a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V3a1 1 0 0 0-1-1z"></path>
@@ -864,11 +870,11 @@ return array (
   <polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"></polygon>
 ',
   'contact' => '
-  <path d="M19 22H5c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2h14c1.1 0 2 .9 2 2v14c0 1.1-.9 2-2 2z"></path>
-  <line x1="16" y1="2" x2="16" y2="4"></line>
+  <path d="M17 18a2 2 0 0 0-2-2H9a2 2 0 0 0-2 2"></path>
+  <rect x="3" y="4" width="18" height="18" rx="2"></rect>
+  <circle class="cls-2" cx="12" cy="10" r="2"></circle>
   <line x1="8" y1="2" x2="8" y2="4"></line>
-  <circle cx="12" cy="11" r="3"></circle>
-  <path d="M17 18.5c-1.4-1-3.1-1.5-5-1.5s-3.6.6-5 1.5"></path>
+  <line x1="16" y1="2" x2="16" y2="4"></line>
 ',
   'contrast' => '
   <circle cx="12" cy="12" r="10"></circle>
@@ -929,14 +935,14 @@ return array (
   'cpu' => '
   <rect x="4" y="4" width="16" height="16" rx="2" ry="2"></rect>
   <rect x="9" y="9" width="6" height="6"></rect>
-  <line x1="9" y1="1" x2="9" y2="4"></line>
-  <line x1="15" y1="1" x2="15" y2="4"></line>
-  <line x1="9" y1="20" x2="9" y2="23"></line>
-  <line x1="15" y1="20" x2="15" y2="23"></line>
-  <line x1="20" y1="9" x2="23" y2="9"></line>
-  <line x1="20" y1="14" x2="23" y2="14"></line>
-  <line x1="1" y1="9" x2="4" y2="9"></line>
-  <line x1="1" y1="14" x2="4" y2="14"></line>
+  <line x1="9" y1="2" x2="9" y2="4"></line>
+  <line x1="15" y1="2" x2="15" y2="4"></line>
+  <line x1="9" y1="21" x2="9" y2="22"></line>
+  <line x1="15" y1="20" x2="15" y2="22"></line>
+  <line x1="20" y1="9" x2="22" y2="9"></line>
+  <line x1="20" y1="14" x2="22" y2="14"></line>
+  <line x1="2" y1="9" x2="4" y2="9"></line>
+  <line x1="2" y1="14" x2="4" y2="14"></line>
 ',
   'credit-card' => '
   <rect x="2" y="5" width="20" height="14" rx="2"></rect>
@@ -1121,6 +1127,12 @@ return array (
   'facebook' => '
   <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
 ',
+  'factory' => '
+  <path d="M2 20a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8l-7 5V8l-7 5V4a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2Z"></path>
+  <path d="M17 18h1"></path>
+  <path d="M12 18h1"></path>
+  <path d="M7 18h1"></path>
+',
   'fast-forward' => '
   <polygon points="13 19 22 12 13 5 13 19"></polygon>
   <polygon points="2 19 11 12 2 5 2 19"></polygon>
@@ -1282,6 +1294,13 @@ return array (
   <path d="M14 9.3a6.5 6.5 0 1 1-4 0"></path>
   <path d="M5.58 16.5h12.85"></path>
 ',
+  'focus' => '
+  <circle cx="12" cy="12" r="3"></circle>
+  <path d="M3 7V5a2 2 0 0 1 2-2h2"></path>
+  <path d="M17 3h2a2 2 0 0 1 2 2v2"></path>
+  <path d="M21 17v2a2 2 0 0 1-2 2h-2"></path>
+  <path d="M7 21H5a2 2 0 0 1-2-2v-2"></path>
+',
   'folder-minus' => '
   <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
   <line x1="9" y1="14" x2="15" y2="14"></line>
@@ -1408,10 +1427,11 @@ return array (
   <line x1="6" y1="9" x2="6" y2="21"></line>
 ',
   'github' => '
-  <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+  <path d="M15 22V18C15.14 16.75 14.78 15.49 14 14.5C17 14.5 20 12.5 20 9C20.08 7.75 19.73 6.52 19 5.5C19.28 4.35 19.28 3.15 19 2C19 2 18 2 16 3.5C13.36 3 10.64 3 8 3.5C6 2 5 2 5 2C4.7 3.15 4.7 4.35 5 5.5C4.27 6.52 3.92 7.75 4 9C4 12.5 7 14.5 10 14.5C9.61 14.99 9.32 15.55 9.15 16.15C8.98 16.75 8.93 17.38 9 18V22"></path>
+  <path d="M9 18c-4.51 2-5-2-7-2"></path>
 ',
   'gitlab' => '
-  <path d="M22.65 14.39 12 22.13 1.35 14.39a.84.84 0 0 1-.3-.94l1.22-3.78 2.44-7.51A.42.42 0 0 1 4.82 2a.43.43 0 0 1 .58 0 .42.42 0 0 1 .11.18l2.44 7.49h8.1l2.44-7.51A.42.42 0 0 1 18.6 2a.43.43 0 0 1 .58 0 .42.42 0 0 1 .11.18l2.44 7.51L23 13.45a.84.84 0 0 1-.35.94z"></path>
+  <path d="M22 13.29l-3.33-10a.42.42 0 0 0-.14-.18A.38.38 0 0 0 18.31 3a.39.39 0 0 0-.23.07.42.42 0 0 0-.14.18L15.68 9.92H8.32L6.1 3.26A.42.42 0 0 0 6 3.08.38.38 0 0 0 5.74 3a.39.39 0 0 0-.23.07.42.42 0 0 0-.14.18L2 13.29a.74.74 0 0 0 .27.83L12 21l9.69-6.88a.71.71 0 0 0 .31-.83Z"></path>
 ',
   'glasses' => '
   <circle cx="6" cy="15" r="4"></circle>
@@ -1550,28 +1570,30 @@ return array (
   <path d="M7 2v4.172a2 2 0 0 0 .586 1.414L12 12l4.414-4.414A2 2 0 0 0 17 6.172V2"></path>
 ',
   'image-minus' => '
-  <path d="M21 11v8a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h8"></path>
-  <path d="M8.5 10a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z"></path>
-  <path d="m21 15-5-5L5 21"></path>
-  <path d="M22 5h-6"></path>
+  <path d="M21 9v10a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h7"></path>
+  <line x1="16" y1="5" x2="22" y2="5"></line>
+  <circle cx="9" cy="9" r="2"></circle>
+  <path d="m21 15-3.086-3.086a2 2 0 0 0-2.828 0L6 21"></path>
 ',
   'image-off' => '
-  <path d="m2 2 20 20"></path>
-  <path d="M9 3h10a2 2 0 0 1 2 2v10M3.59 3.59A2 2 0 0 0 3 5v14c0 1.1.9 2 2 2h14a2 2 0 0 0 1.41-.59"></path>
-  <path d="M9.56 9.56a1.5 1.5 0 0 1-2.12-2.12"></path>
-  <path d="m21 15-5-5M5 21l8-8"></path>
+  <line x1="2" y1="2" x2="22" y2="22"></line>
+  <path d="M10.41 10.41a2 2 0 1 1-2.83-2.83"></path>
+  <line x1="13.5" y1="13.5" x2="6" y2="21"></line>
+  <line x1="18" y1="12" x2="21" y2="15"></line>
+  <path d="M3.59 3.59A1.99 1.99 0 0 0 3 5v14a2 2 0 0 0 2 2h14c.55 0 1.052-.22 1.41-.59"></path>
+  <path d="M21 15V5a2 2 0 0 0-2-2H9"></path>
 ',
   'image-plus' => '
-  <path d="M21 11v8a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h8"></path>
-  <path d="M8.5 10a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z"></path>
-  <path d="m21 15-5-5L5 21"></path>
-  <path d="M19 2v6"></path>
-  <path d="M22 5h-6"></path>
+  <path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h7"></path>
+  <line x1="16" y1="5" x2="22" y2="5"></line>
+  <line x1="19" y1="2" x2="19" y2="8"></line>
+  <circle cx="9" cy="9" r="2"></circle>
+  <path d="m21 15-3.086-3.086a2 2 0 0 0-2.828 0L6 21"></path>
 ',
   'image' => '
   <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
-  <circle cx="8.5" cy="8.5" r="1.5"></circle>
-  <polyline points="21 15 16 10 5 21"></polyline>
+  <circle cx="9" cy="9" r="2"></circle>
+  <path d="m21 15-3.086-3.086a2 2 0 0 0-2.828 0L6 21"></path>
 ',
   'import' => '
   <path d="M12 3v12"></path>
@@ -1855,9 +1877,9 @@ return array (
   <circle cx="12" cy="10" r="3"></circle>
 ',
   'map' => '
-  <polygon points="1 6 1 22 8 18 16 22 23 18 23 2 16 6 8 2 1 6"></polygon>
-  <line x1="8" y1="2" x2="8" y2="18"></line>
-  <line x1="16" y1="6" x2="16" y2="22"></line>
+  <polygon points="3 6 9 3 15 6 21 3 21 18 15 21 9 18 3 21"></polygon>
+  <line x1="9" y1="3" x2="9" y2="18"></line>
+  <line x1="15" y1="6" x2="15" y2="21"></line>
 ',
   'maximize-2' => '
   <polyline points="15 3 21 3 21 9"></polyline>
@@ -2247,6 +2269,9 @@ return array (
   <path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"></path>
   <rect x="6" y="14" width="12" height="8"></rect>
 ',
+  'puzzle' => '
+  <path d="m12 2 3.6 3.6c2.4-6.3 9.1.4 2.8 2.8L22 12l-3.6 3.6c-2.4-6.3-9.1.4-2.8 2.8L12 22l-3.6-3.6C6 24.7-.7 18 5.6 15.6L2 12l3.6-3.6C8 14.7 14.7 8 8.4 5.6L12 2z"></path>
+',
   'qr-code' => '
   <rect x="2" y="2" width="8" height="8"></rect>
   <path d="M6 6h.01"></path>
@@ -2507,8 +2532,8 @@ return array (
 ',
   'shopping-cart' => '
   <circle cx="9" cy="21" r="1"></circle>
-  <circle cx="20" cy="21" r="1"></circle>
-  <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+  <circle cx="19" cy="21" r="1"></circle>
+  <path d="M2 2H4.5L7.62 14.49A2 2 0 0 0 9.56 16h8.88a2 2 0 0 0 1.94-1.51L22 8H6"></path>
 ',
   'shovel' => '
   <path d="M2 22v-5l5-5 5 5-5 5z"></path>
@@ -2600,6 +2625,17 @@ return array (
   <circle cx="12" cy="12" r="10"></circle>
   <line x1="4.93" y1="4.93" x2="19.07" y2="19.07"></line>
 ',
+  'sliders-horizontal' => '
+  <line x1="21" y1="4" x2="14" y2="4"></line>
+  <line x1="10" y1="4" x2="3" y2="4"></line>
+  <line x1="21" y1="12" x2="12" y2="12"></line>
+  <line x1="8" y1="12" x2="3" y2="12"></line>
+  <line x1="21" y1="20" x2="16" y2="20"></line>
+  <line x1="12" y1="20" x2="3" y2="20"></line>
+  <line x1="14" y1="2" x2="14" y2="6"></line>
+  <line x1="8" y1="10" x2="8" y2="14"></line>
+  <line x1="16" y1="18" x2="16" y2="22"></line>
+',
   'sliders' => '
   <line x1="4" y1="21" x2="4" y2="14"></line>
   <line x1="4" y1="10" x2="4" y2="3"></line>
@@ -2688,6 +2724,17 @@ return array (
   <path d="m4 5 8 8"></path>
   <path d="m12 5-8 8"></path>
   <path d="M20 19h-4c0-1.5.44-2 1.5-2.5S20 15.33 20 14c0-.47-.17-.93-.48-1.29a2.11 2.11 0 0 0-2.62-.44c-.42.24-.74.62-.9 1.07"></path>
+',
+  'sun-dim' => '
+  <path d="M12 16a4 4 0 100-8 4 4 0 000 8z"></path>
+  <path d="M12 4h.01"></path>
+  <path d="M20 12h.01"></path>
+  <path d="M12 20h.01"></path>
+  <path d="M4 12h.01"></path>
+  <path d="M17.657 6.343h.01"></path>
+  <path d="M17.657 17.657h.01"></path>
+  <path d="M6.343 17.657h.01"></path>
+  <path d="M6.343 6.343h.01"></path>
 ',
   'sun' => '
   <circle cx="12" cy="12" r="4"></circle>
@@ -2871,7 +2918,7 @@ return array (
   <polyline points="16 7 22 7 22 13"></polyline>
 ',
   'triangle' => '
-  <path d="M10.29 3.86 1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"></path>
+  <path d="M21.73 18l-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21H20A2 2 0 0 0 21.73 18Z"></path>
 ',
   'truck' => '
   <path d="M10 17h4V5H2v12h3m15 0h2v-3.34a4 4 0 0 0-1.17-2.83L19 9h-5v8h1"></path>
@@ -2971,6 +3018,13 @@ return array (
   <path d="M12 3a3.6 3.6 0 0 0-3.05 1.68 3.6 3.6 0 0 0-.9-.1 3.6 3.6 0 0 0-2.42 1.06 3.6 3.6 0 0 0-.94 3.32A3.6 3.6 0 0 0 3 12a3.6 3.6 0 0 0 1.69 3.05 3.6 3.6 0 0 0 .95 3.32 3.6 3.6 0 0 0 3.35.96A3.6 3.6 0 0 0 12 21a3.6 3.6 0 0 0 3.04-1.67 3.6 3.6 0 0 0 4.3-4.3A3.6 3.6 0 0 0 21 12a3.6 3.6 0 0 0-1.67-3.04v0a3.6 3.6 0 0 0-4.3-4.3A3.6 3.6 0 0 0 12 3z"></path>
   <path d="m15 10-4 4"></path>
   <path d="m9 12 2 2"></path>
+',
+  'vibrate-off' => '
+  <path d="m2 8 2 2-2 2 2 2-2 2"></path>
+  <path d="m22 8-2 2 2 2-2 2 2 2"></path>
+  <path d="M8 8v10c0 .55.45 1 1 1h6c.55 0 1-.45 1-1v-2"></path>
+  <path d="M16 10.34V6c0-.55-.45-1-1-1h-4.34"></path>
+  <line x1="2" y1="2" x2="22" y2="22"></line>
 ',
   'vibrate' => '
   <path d="m2 8 2 2-2 2 2 2-2 2"></path>
