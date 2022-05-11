@@ -978,7 +978,7 @@ return array (
   <path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path>
 ',
   'delete' => '
-  <path d="M21 4H8l-7 8 7 8h13a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2z"></path>
+  <path d="M20 5H9L2 12l7 7H20a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2Z"></path>
   <line x1="18" y1="9" x2="12" y2="15"></line>
   <line x1="12" y1="9" x2="18" y2="15"></line>
 ',
@@ -2299,6 +2299,10 @@ return array (
   <circle cx="12" cy="12" r="2"></circle>
   <path d="M16.24 7.76a6 6 0 0 1 0 8.49m-8.48-.01a6 6 0 0 1 0-8.49m11.31-2.82a10 10 0 0 1 0 14.14m-14.14 0a10 10 0 0 1 0-14.14"></path>
 ',
+  'redo-2' => '
+  <path d="m15 14 5-5-5-5"></path>
+  <path d="M20 9H9.5A5.5 5.5 0 0 0 4 14.5v0A5.5 5.5 0 0 0 9.5 20H13"></path>
+',
   'redo' => '
   <path d="M21 7v6h-6"></path>
   <path d="M3 17a9 9 0 0 1 9-9 9 9 0 0 1 6 2.3l3 2.7"></path>
@@ -2952,6 +2956,10 @@ return array (
   'underline' => '
   <path d="M6 4v6a6 6 0 0 0 12 0V4"></path>
   <line x1="4" y1="20" x2="20" y2="20"></line>
+',
+  'undo-2' => '
+  <path d="M9 14 4 9l5-5"></path>
+  <path d="M4 9h10.5a5.5 5.5 0 0 1 5.5 5.5v0a5.5 5.5 0 0 1-5.5 5.5H11"></path>
 ',
   'undo' => '
   <path d="M3 7v6h6"></path>
