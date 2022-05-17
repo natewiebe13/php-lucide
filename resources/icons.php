@@ -334,6 +334,24 @@ return array (
   <line x1="12" y1="20" x2="12" y2="4"></line>
   <line x1="6" y1="20" x2="6" y2="14"></line>
 ',
+  'bar-chart-3' => '
+  <path d="M2 2v20h20"></path>
+  <path d="M17 18V9"></path>
+  <path d="M12 18V4"></path>
+  <path d="M7 18v-4"></path>
+',
+  'bar-chart-4' => '
+  <path d="M2 2v20h20"></path>
+  <path d="M12 18V9"></path>
+  <path d="M17 18V4"></path>
+  <path d="M7 18v-4"></path>
+',
+  'bar-chart-horizontal' => '
+  <path d="M2 2V22H22"></path>
+  <path d="M6 17L15 17"></path>
+  <path d="M6 12L20 12"></path>
+  <path d="M6 7L10 7"></path>
+',
   'bar-chart' => '
   <line x1="12" y1="20" x2="12" y2="10"></line>
   <line x1="18" y1="20" x2="18" y2="4"></line>
@@ -1755,6 +1773,10 @@ return array (
   <line x1="10" y1="22" x2="14" y2="22"></line>
   <path d="M15.09 14c.18-.98.65-1.74 1.41-2.5A4.65 4.65 0 0 0 18 8 6 6 0 0 0 6 8c0 1 .23 2.23 1.5 3.5A4.61 4.61 0 0 1 8.91 14"></path>
 ',
+  'line-chart' => '
+  <path d="M2 2v20h20"></path>
+  <path d="m20 9-6 6-5-5-3 3"></path>
+',
   'link-2-off' => '
   <path d="M15 7h2a5 5 0 0 1 4 8M9 17H7A5 5 0 0 1 7 7"></path>
   <line x1="8" y1="12" x2="12" y2="12"></line>
@@ -1871,6 +1893,13 @@ return array (
   'mail' => '
   <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
   <polyline points="22,6 12,13 2,6"></polyline>
+',
+  'map-pin-off' => '
+  <path d="M5.43 5.43A8.06 8.06 0 0 0 4 10c0 6 8 12 8 12a29.94 29.94 0 0 0 5-5"></path>
+  <path d="M19.18 13.52A8.66 8.66 0 0 0 20 10a8 8 0 0 0-8-8 7.88 7.88 0 0 0-3.52.82"></path>
+  <path d="M9.13 9.13A2.78 2.78 0 0 0 9 10a3 3 0 0 0 3 3 2.78 2.78 0 0 0 .87-.13"></path>
+  <path d="M14.9 9.25a3 3 0 0 0-2.15-2.16"></path>
+  <line x1="2" y1="2" x2="22" y2="22"></line>
 ',
   'map-pin' => '
   <path d="M20 10c0 6-8 12-8 12S4 16 4 10a8 8 0 0 1 16 0Z"></path>
@@ -2037,8 +2066,18 @@ return array (
   <circle cx="6" cy="18" r="3"></circle>
   <circle cx="18" cy="16" r="3"></circle>
 ',
+  'navigation-2-off' => '
+  <path d="M9.31 9.31 5 21l7-4 7 4-1.17-3.17"></path>
+  <path d="M14.53 8.88 12 2 10.83 5.17"></path>
+  <line x1="2" y1="2" x2="22" y2="22"></line>
+',
   'navigation-2' => '
   <polygon points="12 2 19 21 12 17 5 21 12 2"></polygon>
+',
+  'navigation-off' => '
+  <path d="M8.43 8.43 3 11l8 2 2 8 2.57-5.43"></path>
+  <path d="M17.39 11.73 22 2 12.27 6.61"></path>
+  <line x1="2" y1="2" x2="22" y2="22"></line>
 ',
   'navigation' => '
   <polygon points="3 11 22 2 13 21 11 13 3 11"></polygon>
@@ -2196,9 +2235,9 @@ return array (
   <path d="M7 3h10"></path>
 ',
   'pipette' => '
-  <path d="m2 22 2-2h3l7-7"></path>
-  <path d="M4 20v-3l7-7"></path>
-  <path d="M14.29 13.3a1 1 0 0 0 1.41 0l.8-.8c.27-.27.27-.72 0-1s-.28-.72 0-1l4.08-4.08a2 2 0 0 0 0-2.83l-.17-.17a2 2 0 0 0-2.83 0L13.5 7.51c-.28.27-.73.27-1 0s-.73-.28-1 0l-.8.79a1 1 0 0 0 0 1.41l3.59 3.59z"></path>
+  <path d="M2 22l1-1H6l9-9"></path>
+  <path d="M3 21V18l9-9"></path>
+  <path d="M21.37 5.63a2.12 2.12 0 0 0-3-3L15.58 5.42a1.05 1.05 0 0 1-1.5 0 1.07 1.07 0 0 0-1.5 0L11.25 6.75a1.07 1.07 0 0 0 0 1.5l4.5 4.5a1.07 1.07 0 0 0 1.5 0l1.33-1.33a1.07 1.07 0 0 0 0-1.5 1.05 1.05 0 0 1 0-1.5Z"></path>
 ',
   'plane' => '
   <path d="M17.8 19.2 16 11l3.5-3.5C21 6 21.5 4 21 3c-1-.5-3 0-4.5 1.5L13 8 4.8 6.2c-.5-.1-.9.1-1.1.5l-.3.5c-.2.5-.1 1 .3 1.3L9 12l-2 3H4l-1 1 3 2 2 3 1-1v-3l3-2 3.5 5.3c.3.4.8.5 1.3.3l.5-.2c.4-.3.6-.7.5-1.2z"></path>
@@ -2535,9 +2574,9 @@ return array (
   <path d="M16 10a4 4 0 0 1-8 0"></path>
 ',
   'shopping-cart' => '
-  <circle cx="9" cy="21" r="1"></circle>
+  <circle cx="8" cy="21" r="1"></circle>
   <circle cx="19" cy="21" r="1"></circle>
-  <path d="M2 2H4.5L7.62 14.49A2 2 0 0 0 9.56 16h8.88a2 2 0 0 0 1.94-1.51L22 8H6"></path>
+  <path d="M2.05 2.05h2l2.66 12.42a2 2 0 0 0 2 1.58h9.78a2 2 0 0 0 1.95-1.57l1.65-7.43H5.12"></path>
 ',
   'shovel' => '
   <path d="M2 22v-5l5-5 5 5-5 5z"></path>
