@@ -24,7 +24,8 @@ return array (
   <path d="m9 13 2 2 4-4"></path>
 ',
   'alarm-clock-off' => '
-  <path d="M19.94 14A8 8 0 0 0 10 5.25m8.13 12.89A8 8 0 1 1 6.87 6.86"></path>
+  <path d="M6.87 6.87a8 8 0 1 0 11.26 11.26"></path>
+  <path d="M19.9 14.25A7.44 7.44 0 0 0 20 13a8 8 0 0 0-8-8 7.44 7.44 0 0 0-1.25.1"></path>
   <path d="m22 6-3-3"></path>
   <path d="m6 19-2 2"></path>
   <path d="m2 2 20 20"></path>
@@ -237,6 +238,12 @@ return array (
   'archive' => '
   <path d="M20 9v9a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V9m16-5H4a2 2 0 0 0-2 2v1a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2zm-10 9h4"></path>
 ',
+  'armchair' => '
+  <path d="M19 9V6a2 2 0 0 0-2-2H7a2 2 0 0 0-2 2v3"></path>
+  <path d="M3 11v5a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-5a2 2 0 0 0-4 0v2H7v-2a2 2 0 0 0-4 0Z"></path>
+  <path d="M5 18v2"></path>
+  <path d="M19 18v2"></path>
+',
   'arrow-big-down' => '
   <path d="M9 3h6v11h4l-7 7-7-7h4z"></path>
 ',
@@ -324,6 +331,20 @@ return array (
   <path d="m14 12-8.501 8.501a2.12 2.12 0 0 1-2.998 0h-.002a2.12 2.12 0 0 1 0-2.998L11 9.002"></path>
   <path d="m9 7 4-4 6 6h3l-.13.648a7.648 7.648 0 0 1-5.081 5.756L15 16v-3z"></path>
 ',
+  'backpack' => '
+  <path d="M4 20V10a4 4 0 0 1 4-4h8a4 4 0 0 1 4 4v10a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2Z"></path>
+  <path d="M9 6V4a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v2"></path>
+  <path d="M8 21v-5a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v5"></path>
+  <path d="M8 10h8"></path>
+  <path d="M8 18h8"></path>
+',
+  'baggage-claim' => '
+  <path d="M22 18H6a2 2 0 0 1-2-2V7a2 2 0 0 0-2-2"></path>
+  <path d="M17 14V4a2 2 0 0 0-2-2h-1a2 2 0 0 0-2 2v10"></path>
+  <rect x="8" y="6" width="13" height="8" rx="1"></rect>
+  <circle cx="18" cy="20" r="2"></circle>
+  <circle cx="9" cy="20" r="2"></circle>
+',
   'banknote' => '
   <rect x="2" y="6" width="20" height="12" rx="2"></rect>
   <circle cx="12" cy="12" r="2"></circle>
@@ -402,6 +423,23 @@ return array (
   <path d="M6 3v16a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V3"></path>
   <path d="M6 14h12"></path>
 ',
+  'bed-double' => '
+  <path d="M2 20v-8a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v8"></path>
+  <path d="M4 10V6a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v4"></path>
+  <path d="M12 4v6"></path>
+  <path d="M2 18h20"></path>
+',
+  'bed-single' => '
+  <path d="M3 20v-8a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v8"></path>
+  <path d="M5 10V6a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v4"></path>
+  <path d="M3 18h18"></path>
+',
+  'bed' => '
+  <path d="M2 4v16"></path>
+  <path d="M2 8h18a2 2 0 0 1 2 2v10"></path>
+  <path d="M2 17h20"></path>
+  <path d="M6 8v9"></path>
+',
   'bell-minus' => '
   <path d="M13.73 21a2 2 0 0 1-3.46 0"></path>
   <path d="M21 5h-6"></path>
@@ -436,10 +474,12 @@ return array (
   <path d="M15 6a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm-3 11.5V14l-3-3 4-3 2 3h2"></path>
 ',
   'binary' => '
-  <path d="M10 4H6v6h4V4z"></path>
-  <path d="M18 14h-4v6h4v-6z"></path>
-  <path d="M14 4h2v6m-2 0h4"></path>
-  <path d="M6 14h2v6m-2 0h4"></path>
+  <path d="M6 20h4"></path>
+  <path d="M14 10h4"></path>
+  <path d="M6 14h2v6"></path>
+  <path d="M14 4h2v6"></path>
+  <rect x="6" y="4" width="4" height="6"></rect>
+  <rect x="14" y="14" width="4" height="6"></rect>
 ',
   'bitcoin' => '
   <path d="M11.767 19.089c4.924.868 6.14-6.025 1.216-6.894m-1.216 6.894L5.86 18.047m5.908 1.042-.347 1.97m1.563-8.864c4.924.869 6.14-6.025 1.215-6.893m-1.215 6.893-3.94-.694m5.155-6.2L8.29 4.26m5.908 1.042.348-1.97M7.48 20.364l3.126-17.727"></path>
@@ -509,8 +549,8 @@ return array (
 ',
   'box' => '
   <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path>
-  <polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline>
-  <line x1="12" y1="22.08" x2="12" y2="12"></line>
+  <polyline points="3.29 7 12 12 20.71 7"></polyline>
+  <line x1="12" y1="22" x2="12" y2="12"></line>
 ',
   'briefcase' => '
   <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
@@ -554,7 +594,8 @@ return array (
   <path d="M8 14h.01"></path>
 ',
   'bus' => '
-  <path d="M19 17h2l.64-2.54a6 6 0 0 0 0-2.92l-1.07-4.27A3 3 0 0 0 17.66 5H4a2 2 0 0 0-2 2v10h2m10 0h-4"></path>
+  <path d="M19 17h2l.64-2.54c.24-.959.24-1.962 0-2.92l-1.07-4.27A3 3 0 0 0 17.66 5H4a2 2 0 0 0-2 2v10h2"></path>
+  <path d="M14 17H9"></path>
   <circle cx="6.5" cy="17.5" r="2.5"></circle>
   <circle cx="16.5" cy="17.5" r="2.5"></circle>
 ',
@@ -570,6 +611,81 @@ return array (
   <path d="M12 18h.01"></path>
   <path d="M8 18h.01"></path>
 ',
+  'calendar-check-2' => '
+  <path d="M21 14V6a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h8"></path>
+  <line x1="16" y1="2" x2="16" y2="6"></line>
+  <line x1="8" y1="2" x2="8" y2="6"></line>
+  <line x1="3" y1="10" x2="21" y2="10"></line>
+  <path d="m16 20 2 2 4-4"></path>
+',
+  'calendar-check' => '
+  <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+  <line x1="16" y1="2" x2="16" y2="6"></line>
+  <line x1="8" y1="2" x2="8" y2="6"></line>
+  <line x1="3" y1="10" x2="21" y2="10"></line>
+  <path d="m9 16 2 2 4-4"></path>
+',
+  'calendar-days' => '
+  <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+  <line x1="16" y1="2" x2="16" y2="6"></line>
+  <line x1="8" y1="2" x2="8" y2="6"></line>
+  <line x1="3" y1="10" x2="21" y2="10"></line>
+  <path d="M8 14h.01"></path>
+  <path d="M12 14h.01"></path>
+  <path d="M16 14h.01"></path>
+  <path d="M8 18h.01"></path>
+  <path d="M12 18h.01"></path>
+  <path d="M16 18h.01"></path>
+',
+  'calendar-minus' => '
+  <path d="M21 13V6a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h8"></path>
+  <line x1="16" y1="2" x2="16" y2="6"></line>
+  <line x1="8" y1="2" x2="8" y2="6"></line>
+  <line x1="3" y1="10" x2="21" y2="10"></line>
+  <line x1="16" y1="19" x2="22" y2="19"></line>
+',
+  'calendar-off' => '
+  <path d="M4.18 4.18A2 2 0 0 0 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 1.82-1.18"></path>
+  <path d="M21 15.5V6a2 2 0 0 0-2-2H9.5"></path>
+  <path d="M16 2v4"></path>
+  <path d="M3 10h7"></path>
+  <path d="M21 10h-5.5"></path>
+  <line x1="2" y1="2" x2="22" y2="22"></line>
+',
+  'calendar-plus' => '
+  <path d="M21 13V6a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h8"></path>
+  <line x1="16" y1="2" x2="16" y2="6"></line>
+  <line x1="8" y1="2" x2="8" y2="6"></line>
+  <line x1="3" y1="10" x2="21" y2="10"></line>
+  <line x1="19" y1="16" x2="19" y2="22"></line>
+  <line x1="16" y1="19" x2="22" y2="19"></line>
+',
+  'calendar-range' => '
+  <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+  <line x1="16" y1="2" x2="16" y2="6"></line>
+  <line x1="8" y1="2" x2="8" y2="6"></line>
+  <line x1="3" y1="10" x2="21" y2="10"></line>
+  <path d="M17 14h-6"></path>
+  <path d="M13 18H7"></path>
+  <path d="M7 14h.01"></path>
+  <path d="M17 18h.01"></path>
+',
+  'calendar-x-2' => '
+  <path d="M21 13V6a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h8"></path>
+  <line x1="16" y1="2" x2="16" y2="6"></line>
+  <line x1="8" y1="2" x2="8" y2="6"></line>
+  <line x1="3" y1="10" x2="21" y2="10"></line>
+  <line x1="17" y1="17" x2="22" y2="22"></line>
+  <line x1="17" y1="22" x2="22" y2="17"></line>
+',
+  'calendar-x' => '
+  <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+  <line x1="16" y1="2" x2="16" y2="6"></line>
+  <line x1="8" y1="2" x2="8" y2="6"></line>
+  <line x1="3" y1="10" x2="21" y2="10"></line>
+  <line x1="10" y1="14" x2="14" y2="18"></line>
+  <line x1="14" y1="14" x2="10" y2="18"></line>
+',
   'calendar' => '
   <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
   <line x1="16" y1="2" x2="16" y2="6"></line>
@@ -578,7 +694,8 @@ return array (
 ',
   'camera-off' => '
   <line x1="2" y1="2" x2="22" y2="22"></line>
-  <path d="M9.5 4h5L17 7h3a2 2 0 0 1 2 2v7.5M7 7H4a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h16"></path>
+  <path d="M7 7H4a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h16"></path>
+  <path d="M9.5 4h5L17 7h3a2 2 0 0 1 2 2v7.5"></path>
   <path d="M14.121 15.121A3 3 0 1 1 9.88 10.88"></path>
 ',
   'camera' => '
@@ -596,7 +713,9 @@ return array (
   <path d="M15 2s-2 1.33-2 3.5S15 9 15 9s2-1.84 2-3.5C17 3.33 15 2 15 2z"></path>
 ',
   'cast' => '
-  <path d="M2 16.1A5 5 0 0 1 5.9 20M2 12.05A9 9 0 0 1 9.95 20M2 8V6a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2h-6"></path>
+  <path d="M2 8V6a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2h-6"></path>
+  <path d="M2 12a9 9 0 0 1 8 8"></path>
+  <path d="M2 16a5 5 0 0 1 4 4"></path>
   <line x1="2" y1="20" x2="2.01" y2="20"></line>
 ',
   'check-circle-2' => '
@@ -677,6 +796,22 @@ return array (
   <line x1="3.95" y1="6.06" x2="8.54" y2="14"></line>
   <line x1="10.88" y1="21.94" x2="15.46" y2="14"></line>
 ',
+  'cigarette-off' => '
+  <line x1="2" y1="2" x2="22" y2="22"></line>
+  <path d="M12 12H2v4h14"></path>
+  <path d="M22 12v4"></path>
+  <path d="M18 12h-.5"></path>
+  <path d="M7 12v4"></path>
+  <path d="M18 8c0-2.5-2-2.5-2-5"></path>
+  <path d="M22 8c0-2.5-2-2.5-2-5"></path>
+',
+  'cigarette' => '
+  <path d="M18 12H2v4h16"></path>
+  <path d="M22 12v4"></path>
+  <path d="M7 12v4"></path>
+  <path d="M18 8c0-2.5-2-2.5-2-5"></path>
+  <path d="M22 8c0-2.5-2-2.5-2-5"></path>
+',
   'circle-slashed' => '
   <circle cx="12" cy="12" r="10"></circle>
   <path d="M22 2 2 22"></path>
@@ -692,18 +827,19 @@ return array (
 ',
   'clipboard-check' => '
   <path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"></path>
-  <path d="M15 2H9a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V3a1 1 0 0 0-1-1z"></path>
+  <rect x="8" y="2" width="8" height="4" rx="1" ry="1"></rect>
   <path d="m9 13 2 2 4-4"></path>
 ',
   'clipboard-copy' => '
-  <path d="M16 4h2a2 2 0 0 1 2 2v4M8 4H6a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-2"></path>
+  <path d="M8 4H6a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-2"></path>
+  <path d="M16 4h2a2 2 0 0 1 2 2v4"></path>
   <rect x="8" y="2" width="8" height="4" rx="1" ry="1"></rect>
   <path d="M21 14H11"></path>
   <path d="m15 10-4 4 4 4"></path>
 ',
   'clipboard-list' => '
   <path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"></path>
-  <path d="M15 2H9a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V3a1 1 0 0 0-1-1z"></path>
+  <rect x="8" y="2" width="8" height="4" rx="1" ry="1"></rect>
   <path d="M12 11h4"></path>
   <path d="M12 16h4"></path>
   <path d="M8 11h.01"></path>
@@ -711,7 +847,7 @@ return array (
 ',
   'clipboard-x' => '
   <path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"></path>
-  <path d="M15 2H9a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V3a1 1 0 0 0-1-1z"></path>
+  <rect x="8" y="2" width="8" height="4" rx="1" ry="1"></rect>
   <path d="m15 11-6 6"></path>
   <path d="m9 11 6 6"></path>
 ',
@@ -907,7 +1043,7 @@ return array (
   'contact' => '
   <path d="M17 18a2 2 0 0 0-2-2H9a2 2 0 0 0-2 2"></path>
   <rect x="3" y="4" width="18" height="18" rx="2"></rect>
-  <circle class="cls-2" cx="12" cy="10" r="2"></circle>
+  <circle cx="12" cy="10" r="2"></circle>
   <line x1="8" y1="2" x2="8" y2="4"></line>
   <line x1="16" y1="2" x2="16" y2="4"></line>
 ',
@@ -1063,6 +1199,14 @@ return array (
   <path d="M8 12h.01"></path>
   <path d="M8 16h.01"></path>
 ',
+  'dices' => '
+  <rect x="2" y="10" width="12" height="12" rx="2" ry="2"></rect>
+  <path d="m17.92 14 3.5-3.5a2.24 2.24 0 0 0 0-3l-5-4.92a2.24 2.24 0 0 0-3 0L10 6"></path>
+  <path d="M6 18h.01"></path>
+  <path d="M10 14h.01"></path>
+  <path d="M15 6h.01"></path>
+  <path d="M18 9h.01"></path>
+',
   'disc' => '
   <circle cx="12" cy="12" r="10"></circle>
   <circle cx="12" cy="12" r="3"></circle>
@@ -1100,7 +1244,9 @@ return array (
 ',
   'dribbble' => '
   <circle cx="12" cy="12" r="10"></circle>
-  <path d="M8.56 2.75c4.37 6.03 6.02 9.42 8.03 17.72m2.54-15.38c-3.72 4.35-8.94 5.66-16.88 5.85m19.5 1.9c-3.5-.93-6.63-.82-8.94 0-2.58.92-5.01 2.86-7.44 6.32"></path>
+  <path d="M19.13 5.09C15.22 9.14 10 10.44 2.25 10.94"></path>
+  <path d="M21.75 12.84c-6.62-1.41-12.14 1-16.38 6.32"></path>
+  <path d="M8.56 2.75c4.37 6 6 9.42 8 17.72"></path>
 ',
   'droplet' => '
   <path d="M12 22a7 7 0 0 0 7-7c0-2-1-3.9-3-5.5s-3.5-4-4-6.5c-.5 2.5-2 4.9-4 6.5C6 11.1 5 13 5 15a7 7 0 0 0 7 7z"></path>
@@ -1137,8 +1283,8 @@ return array (
   <line x1="5" y1="15" x2="19" y2="15"></line>
 ',
   'eraser' => '
-  <path d="M20 20H7L3 16C2.5 15.5 2.5 14.5 3 14L13 4L20 11L11 20"></path>
-  <path d="M6 11L13 18"></path>
+  <path d="M22,20H7l-4-4 c-0.5-0.5-0.5-1.5,0-2l9.47-9.47c0.5-0.5,1.5-0.5,2,0L20.512,11c0.5,0.5,0.5,1.5,0,2L13.5,20"></path>
+  <path d="M6,11l8,8"></path>
 ',
   'euro' => '
   <path d="M4 10h12"></path>
@@ -1295,9 +1441,21 @@ return array (
   'filter' => '
   <polygon points="22 3 2 3 10 12.46 10 19 14 21 14 12.46 22 3"></polygon>
 ',
+  'fingerprint' => '
+  <path d="M2 12C2 6.5 6.5 2 12 2a10 10 0 0 1 8 4"></path>
+  <path d="M5 19.5C5.5 18 6 15 6 12c0-.7.12-1.37.34-2"></path>
+  <path d="M17.29 21.02c.12-.6.43-2.3.5-3.02"></path>
+  <path d="M12 10a2 2 0 0 0-2 2c0 1.02-.1 2.51-.26 4"></path>
+  <path d="M8.65 22c.21-.66.45-1.32.57-2"></path>
+  <path d="M14 13.12c0 2.38 0 6.38-1 8.88"></path>
+  <path d="M2 16h.01"></path>
+  <path d="M21.8 16c.2-2 .131-5.354 0-6"></path>
+  <path d="M9 6.8a6 6 0 0 1 9 5.2c0 .47 0 1.17-.02 2"></path>
+',
   'flag-off' => '
   <path d="M8 2c3 0 5 2 8 2s4-1 4-1v11"></path>
-  <path d="M4 22v-7m0 0s1-1 4-1 5 2 8 2M4 15V4"></path>
+  <path d="M4 22V4"></path>
+  <path d="M4 15s1-1 4-1 5 2 8 2"></path>
   <line x1="2" y1="2" x2="22" y2="22"></line>
 ',
   'flag-triangle-left' => '
@@ -1795,7 +1953,8 @@ return array (
   <path d="M9 18h6"></path>
   <path d="M10 22h4"></path>
   <path d="m2 2 20 20"></path>
-  <path d="M8.91 14a4.61 4.61 0 0 0-1.41-2.5C6.23 10.23 6 9 6 8a6 6 0 0 1 .084-1M9 2.804A6 6 0 0 1 18 8a4.651 4.651 0 0 1-1.031 3"></path>
+  <path d="M9 2.804A6 6 0 0 1 18 8a4.65 4.65 0 0 1-1.03 3"></path>
+  <path d="M8.91 14a4.61 4.61 0 0 0-1.41-2.5C6.23 10.23 6 9 6 8a6 6 0 0 1 .084-1"></path>
 ',
   'lightbulb' => '
   <line x1="9" y1="18" x2="15" y2="18"></line>
@@ -1807,12 +1966,14 @@ return array (
   <path d="m20 9-6 6-5-5-3 3"></path>
 ',
   'link-2-off' => '
-  <path d="M15 7h2a5 5 0 0 1 4 8M9 17H7A5 5 0 0 1 7 7"></path>
+  <path d="M9 17H7A5 5 0 0 1 7 7"></path>
+  <path d="M15 7h2a5 5 0 0 1 4 8"></path>
   <line x1="8" y1="12" x2="12" y2="12"></line>
   <line x1="2" y1="2" x2="22" y2="22"></line>
 ',
   'link-2' => '
-  <path d="M15 7h2a5 5 0 0 1 0 10h-2m-6 0H7A5 5 0 0 1 7 7h2"></path>
+  <path d="M9 17H7A5 5 0 0 1 7 7h2"></path>
+  <path d="M15 7h2a5 5 0 1 1 0 10h-2"></path>
   <line x1="8" y1="12" x2="16" y2="12"></line>
 ',
   'link' => '
@@ -1919,6 +2080,13 @@ return array (
   <polyline points="16 17 21 12 16 7"></polyline>
   <line x1="21" y1="12" x2="9" y2="12"></line>
 ',
+  'luggage' => '
+  <path d="M6 20h0a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2h0"></path>
+  <path d="M8 18V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v14"></path>
+  <path d="M10 20h4"></path>
+  <circle cx="16" cy="20" r="2"></circle>
+  <circle cx="8" cy="20" r="2"></circle>
+',
   'magnet' => '
   <path d="m6 15-4-4 6.75-6.77a7.79 7.79 0 0 1 11 11L13 22l-4-4 6.39-6.36a2.14 2.14 0 0 0-3-3L6 15"></path>
   <path d="m5 8 4 4"></path>
@@ -1951,7 +2119,10 @@ return array (
   <line x1="3" y1="21" x2="10" y2="14"></line>
 ',
   'maximize' => '
-  <path d="M8 3H5a2 2 0 0 0-2 2v3m18 0V5a2 2 0 0 0-2-2h-3m0 18h3a2 2 0 0 0 2-2v-3M3 16v3a2 2 0 0 0 2 2h3"></path>
+  <path d="M8 3H5a2 2 0 0 0-2 2v3"></path>
+  <path d="M21 8V5a2 2 0 0 0-2-2h-3"></path>
+  <path d="M3 16v3a2 2 0 0 0 2 2h3"></path>
+  <path d="M16 21h3a2 2 0 0 0 2-2v-3"></path>
 ',
   'megaphone' => '
   <path d="m3 11 18-5v12L3 14v-3z"></path>
@@ -1999,7 +2170,10 @@ return array (
   <line x1="3" y1="21" x2="10" y2="14"></line>
 ',
   'minimize' => '
-  <path d="M8 3v3a2 2 0 0 1-2 2H3m18 0h-3a2 2 0 0 1-2-2V3m0 18v-3a2 2 0 0 1 2-2h3M3 16h3a2 2 0 0 1 2 2v3"></path>
+  <path d="M8 3v3a2 2 0 0 1-2 2H3"></path>
+  <path d="M21 8h-3a2 2 0 0 1-2-2V3"></path>
+  <path d="M3 16h3a2 2 0 0 1 2 2v3"></path>
+  <path d="M16 21v-3a2 2 0 0 1 2-2h3"></path>
 ',
   'minus-circle' => '
   <circle cx="12" cy="12" r="10"></circle>
@@ -2139,39 +2313,50 @@ return array (
   <path d="m16 16 2 2 4-4"></path>
   <path d="M21 10V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l2-1.14"></path>
   <path d="M16.5 9.4 7.55 4.24"></path>
-  <path d="M3.29 7 12 12m0 0 8.71-5M12 12v10"></path>
+  <polyline points="3.29 7 12 12 20.71 7"></polyline>
+  <line x1="12" y1="22" x2="12" y2="12"></line>
 ',
   'package-minus' => '
   <path d="M16 16h6"></path>
   <path d="M21 10V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l2-1.14"></path>
   <path d="M16.5 9.4 7.55 4.24"></path>
-  <path d="M3.29 7 12 12m0 0 8.71-5M12 12v10"></path>
+  <polyline points="3.29 7 12 12 20.71 7"></polyline>
+  <line x1="12" y1="22" x2="12" y2="12"></line>
+',
+  'package-open' => '
+  <path d="M20.91 8.84 8.56 2.23a1.93 1.93 0 0 0-1.81 0L3.1 4.13a2.12 2.12 0 0 0-.05 3.69l12.22 6.93a2 2 0 0 0 1.94 0L21 12.51a2.12 2.12 0 0 0-.09-3.67Z"></path>
+  <path d="m3.09 8.84 12.35-6.61a1.93 1.93 0 0 1 1.81 0l3.65 1.9a2.12 2.12 0 0 1 .1 3.69L8.73 14.75a2 2 0 0 1-1.94 0L3 12.51a2.12 2.12 0 0 1 .09-3.67Z"></path>
+  <line x1="12" y1="22" x2="12" y2="13"></line>
+  <path d="M20 13.5v3.37a2.06 2.06 0 0 1-1.11 1.83l-6 3.08a1.93 1.93 0 0 1-1.78 0l-6-3.08A2.06 2.06 0 0 1 4 16.87V13.5"></path>
 ',
   'package-plus' => '
   <path d="M16 16h6"></path>
   <path d="M19 13v6"></path>
   <path d="M21 10V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l2-1.14"></path>
   <path d="M16.5 9.4 7.55 4.24"></path>
-  <path d="M3.29 7 12 12m0 0 8.71-5M12 12v10"></path>
+  <polyline points="3.29 7 12 12 20.71 7"></polyline>
+  <line x1="12" y1="22" x2="12" y2="12"></line>
 ',
   'package-search' => '
   <path d="M21 10V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l2-1.14"></path>
   <path d="M16.5 9.4 7.55 4.24"></path>
-  <path d="M12 12v10M3.29 7 12 12 3.29 7zM12 12l8.71-5L12 12z"></path>
+  <polyline points="3.29 7 12 12 20.71 7"></polyline>
+  <line x1="12" y1="22" x2="12" y2="12"></line>
   <circle cx="18.5" cy="15.5" r="2.5"></circle>
   <path d="M20.27 17.27 22 19"></path>
 ',
   'package-x' => '
   <path d="M21 10V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l2-1.14"></path>
   <path d="M16.5 9.4 7.55 4.24"></path>
-  <path d="M3.29 7 12 12m0 0 8.71-5M12 12v10"></path>
+  <polyline points="3.29 7 12 12 20.71 7"></polyline>
+  <line x1="12" y1="22" x2="12" y2="12"></line>
   <path d="m17 13 5 5m-5 0 5-5"></path>
 ',
   'package' => '
   <line x1="16.5" y1="9.4" x2="7.5" y2="4.21"></line>
   <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path>
-  <polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline>
-  <line x1="12" y1="22.08" x2="12" y2="12"></line>
+  <polyline points="3.29 7 12 12 20.71 7"></polyline>
+  <line x1="12" y1="22" x2="12" y2="12"></line>
 ',
   'palette' => '
   <circle cx="13.5" cy="6.5" r=".5"></circle>
@@ -2225,7 +2410,9 @@ return array (
   <path d="M12 10v4"></path>
 ',
   'phone-call' => '
-  <path d="M14.05 6A5 5 0 0 1 18 10m-3.95-8a9 9 0 0 1 8 7.94m0 7v3a2 2 0 0 1-2 2h-.19a19.79 19.79 0 0 1-8.63-3.07 19.52 19.52 0 0 1-6-6 19.82 19.82 0 0 1-3.11-8.69A2 2 0 0 1 3.93 2h3.18a2 2 0 0 1 2 1.72 13 13 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 13 13 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+  <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+  <path d="M14.05 2a9 9 0 0 1 8 7.94"></path>
+  <path d="M14.05 6A5 5 0 0 1 18 10"></path>
 ',
   'phone-forwarded' => '
   <polyline points="18 2 22 6 18 10"></polyline>
@@ -2263,10 +2450,15 @@ return array (
   <path d="M2 9v1c0 1.1.9 2 2 2h1"></path>
   <path d="M16 11h0"></path>
 ',
+  'pin-off' => '
+  <line x1="2" y1="2" x2="22" y2="22"></line>
+  <line x1="12" y1="17" x2="12" y2="22"></line>
+  <path d="M9 9v1.76a2 2 0 0 1-1.11 1.79l-1.78.9A2 2 0 0 0 5 15.24V17h12"></path>
+  <path d="M15 9.34V6h1a2 2 0 0 0 0-4H7.89"></path>
+',
   'pin' => '
-  <path d="M12 21v-7"></path>
-  <path d="M9 3v5l-2 4v2h10m0 0h-5m5 0v-2l-2-4V3"></path>
-  <path d="M7 3h10"></path>
+  <line x1="12" y1="17" x2="12" y2="22"></line>
+  <path d="M5 17h14v-1.76a2 2 0 0 0-1.11-1.79l-1.78-.9A2 2 0 0 1 15 10.76V6h1a2 2 0 0 0 0-4H8a2 2 0 0 0 0 4h1v4.76a2 2 0 0 1-1.11 1.79l-1.78.9A2 2 0 0 0 5 15.24Z"></path>
 ',
   'pipette' => '
   <path d="M2 22l1-1H6l9-9"></path>
@@ -2311,9 +2503,9 @@ return array (
 ',
   'podcast' => '
   <circle cx="12" cy="11" r="1"></circle>
-  <path d="M17.03 18.46a9 9 0 1 0-10.02.03"></path>
-  <path d="M16.06 13.91a5 5 0 1 0-7.97.2"></path>
-  <path d="M11.11 17a.9.9 0 1 1 1.78 0l-.52 4.67a.37.37 0 0 1-.74 0l-.52-4.68z"></path>
+  <path d="M11 17a1 1 0 0 1 2 0c0 .5-.34 3-.5 4.5a.5.5 0 0 1-1 0c-.16-1.5-.5-4-.5-4.5Z"></path>
+  <path d="M8 14a5 5 0 1 1 8 0"></path>
+  <path d="M17 18.5a9 9 0 1 0-10 0"></path>
 ',
   'pointer' => '
   <path d="M22 14a8 8 0 0 1-8 8"></path>
@@ -2329,7 +2521,8 @@ return array (
   <path d="M6 13h10"></path>
 ',
   'power-off' => '
-  <path d="M18.36 6.64A9 9 0 0 1 20.77 15M5.63 6.64A9 9 0 1 0 18.706 19"></path>
+  <path d="M18.36 6.64A9 9 0 0 1 20.77 15"></path>
+  <path d="M6.16 6.16a9 9 0 1 0 12.68 12.68"></path>
   <path d="M12 2v4"></path>
   <path d="m2 2 20 20"></path>
 ',
@@ -2370,7 +2563,10 @@ return array (
 ',
   'radio' => '
   <circle cx="12" cy="12" r="2"></circle>
-  <path d="M16.24 7.76a6 6 0 0 1 0 8.49m-8.48-.01a6 6 0 0 1 0-8.49m11.31-2.82a10 10 0 0 1 0 14.14m-14.14 0a10 10 0 0 1 0-14.14"></path>
+  <path d="M4.93 19.07a10 10 0 0 1 0-14.14"></path>
+  <path d="M7.76 16.24a6 6 0 0 1-1.3-1.95 6 6 0 0 1 0-4.59 6 6 0 0 1 1.3-1.95"></path>
+  <path d="M16.24 7.76a6 6 0 0 1 1.3 2 6 6 0 0 1 0 4.59 6 6 0 0 1-1.3 1.95"></path>
+  <path d="M19.07 4.93a10 10 0 0 1 0 14.14"></path>
 ',
   'redo-2' => '
   <path d="m15 14 5-5-5-5"></path>
@@ -2469,8 +2665,8 @@ return array (
   <polyline points="7 3 7 8 15 8"></polyline>
 ',
   'scale' => '
-  <path d="m16 16 3-8 3.001 8A5.002 5.002 0 0 1 16 16z"></path>
-  <path d="m2 16 3-8 3.001 8A5.002 5.002 0 0 1 2 16z"></path>
+  <path d="m16 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z"></path>
+  <path d="m2 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z"></path>
   <path d="M7 21h10"></path>
   <path d="M12 3v18"></path>
   <path d="M3 7h2c2 0 5-1 7-2 2 1 5 2 7 2h2"></path>
@@ -2746,6 +2942,13 @@ return array (
   <path d="m16 4-4 4-4-4"></path>
   <path d="m8 20 4-4 4 4"></path>
 ',
+  'sofa' => '
+  <path d="M20 9V6a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v3"></path>
+  <path d="M2 11v5a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-5a2 2 0 0 0-4 0v2H6v-2a2 2 0 0 0-4 0Z"></path>
+  <path d="M4 18v2"></path>
+  <path d="M20 18v2"></path>
+  <path d="M12 4v9"></path>
+',
   'sort-asc' => '
   <path d="M11 5h4"></path>
   <path d="M11 9h7"></path>
@@ -2941,9 +3144,10 @@ return array (
   <line x1="12" y1="19" x2="20" y2="19"></line>
 ',
   'text-cursor-input' => '
-  <path d="M5.3 4h.9C7.7 4 9 5.3 9 6.7m0 0v10.5c0 1.6-1.1 2.7-2.7 2.7h-1M9 6.7v10.6a2.6 2.6 0 0 0 2.7 2.7h1M9 6.7C9 5.2 10.2 4 11.8 4h.9"></path>
-  <path d="M13.1 7.9h6.8c1.1 0 2.1 1 2.1 2.1v4c0 1.1-.9 2.1-2.1 2.1h-6.8"></path>
-  <path d="M4.8 16.1h-.7C3 16.1 2 15.1 2 14v-4c0-1.1 1-2.1 2.1-2.1h.7"></path>
+  <path d="M13 20h-1a3 3 0 0 1-3-3V7a3 3 0 0 1 3-3h1"></path>
+  <path d="M5 4h1a3 3 0 0 1 3 3v10a3 3 0 0 1-3 3H5"></path>
+  <path d="M13.1 7.9h6.8A2.18 2.18 0 0 1 22 10v4a2.11 2.11 0 0 1-2.1 2.1h-6.8"></path>
+  <path d="M4.8 16.1h-.7A2.18 2.18 0 0 1 2 14v-4a2.18 2.18 0 0 1 2.1-2.1h.7"></path>
 ',
   'text-cursor' => '
   <path d="M17 22h-1a4 4 0 0 1-4-4V6a4 4 0 0 1 4-4h1"></path>
@@ -2956,24 +3160,26 @@ return array (
   <path d="m3 9 3 3-3 3"></path>
   <path d="M12 6 9 9 6 6"></path>
   <path d="m6 18 3-3 1.5 1.5"></path>
-  <path d="M18 2a2 2 0 0 0-2 2v10.5a4 4 0 1 0 4 0V4a2 2 0 0 0-2-2z"></path>
+  <path d="M20 4v10.54a4 4 0 1 1-4 0V4a2 2 0 0 1 4 0Z"></path>
 ',
   'thermometer-sun' => '
   <path d="M12 9a4 4 0 0 0-2 7.5"></path>
   <path d="M12 3v2"></path>
   <path d="m6.6 18.4-1.4 1.4"></path>
-  <path d="M18 2a2 2 0 0 1 2 2v10.5a4 4 0 1 1-4 0V4c0-1.1.9-2 2-2z"></path>
+  <path d="M20 4v10.54a4 4 0 1 1-4 0V4a2 2 0 0 1 4 0Z"></path>
   <path d="M4 13H2"></path>
   <path d="M6.6 7.6 5.2 6.2"></path>
 ',
   'thermometer' => '
-  <path d="M12 2a2 2 0 0 0-2 2v10.5a4 4 0 1 0 4 0V4a2 2 0 0 0-2-2z"></path>
+  <path d="M14 4v10.54a4 4 0 1 1-4 0V4a2 2 0 0 1 4 0Z"></path>
 ',
   'thumbs-down' => '
-  <path d="M10 15v4a3 3 0 0 0 3 3l4-9V2H5.72a2 2 0 0 0-2 1.7l-1.38 9a2 2 0 0 0 2 2.3zm7-13h2.67A2.31 2.31 0 0 1 22 4v7a2.31 2.31 0 0 1-2.33 2H17"></path>
+  <path d="M17 14V2"></path>
+  <path d="M9 18.12 10 14H4.17a2 2 0 0 1-1.92-2.56l2.33-8A2 2 0 0 1 6.5 2H20a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2h-2.76a2 2 0 0 0-1.79 1.11L12 22h0a3.13 3.13 0 0 1-3-3.88Z"></path>
 ',
   'thumbs-up' => '
-  <path d="M14 9V5a3 3 0 0 0-3-3l-4 9v11h11.28a2 2 0 0 0 2-1.7l1.38-9a2 2 0 0 0-2-2.3zM7 22H4a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2h3"></path>
+  <path d="M7 10v12"></path>
+  <path d="M15 5.88 14 10h5.83a2 2 0 0 1 1.92 2.56l-2.33 8A2 2 0 0 1 17.5 22H4a2 2 0 0 1-2-2v-8a2 2 0 0 1 2-2h2.76a2 2 0 0 0 1.79-1.11L12 2h0a3.13 3.13 0 0 1 3 3.88Z"></path>
 ',
   'ticket' => '
   <path d="M3 9V7a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v2M3 15v2a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-2"></path>
@@ -3047,7 +3253,9 @@ return array (
   <path d="M21.73 18l-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21H20A2 2 0 0 0 21.73 18Z"></path>
 ',
   'truck' => '
-  <path d="M10 17h4V5H2v12h3m15 0h2v-3.34a4 4 0 0 0-1.17-2.83L19 9h-5v8h1"></path>
+  <path d="M10 17h4V5H2v12h3"></path>
+  <path d="M20 17h2v-3.34a4 4 0 0 0-1.17-2.83L19 9h-5"></path>
+  <path d="M14 17h1"></path>
   <circle cx="7.5" cy="17.5" r="2.5"></circle>
   <circle cx="17.5" cy="17.5" r="2.5"></circle>
 ',
@@ -3192,7 +3400,8 @@ return array (
 ',
   'volume-2' => '
   <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon>
-  <path d="M19.07 4.93a10 10 0 0 1 0 14.14M15.54 8.46a5 5 0 0 1 0 7.07"></path>
+  <path d="M15.54 8.46a5 5 0 0 1 0 7.07"></path>
+  <path d="M19.07 4.93a10 10 0 0 1 0 14.14"></path>
 ',
   'volume-x' => '
   <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon>
