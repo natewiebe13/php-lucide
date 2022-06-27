@@ -226,6 +226,20 @@ return array (
   <line x1="12" y1="22" x2="12" y2="8"></line>
   <path d="M5 12H2a10 10 0 0 0 20 0h-3"></path>
 ',
+  'angry' => '
+  <circle cx="12" cy="12" r="10"></circle>
+  <path d="M16 16s-1.5-2-4-2-4 2-4 2"></path>
+  <path d="M7.5 8 10 9"></path>
+  <path d="m14 9 2.5-1"></path>
+  <path d="M9 10h0"></path>
+  <path d="M15 10h0"></path>
+',
+  'annoyed' => '
+  <circle cx="12" cy="12" r="10"></circle>
+  <path d="M8 15h8"></path>
+  <path d="M8 9h2"></path>
+  <path d="M14 9h2"></path>
+',
   'aperture' => '
   <circle cx="12" cy="12" r="10"></circle>
   <line x1="14.31" y1="8" x2="20.05" y2="17.94"></line>
@@ -339,6 +353,10 @@ return array (
   'axe' => '
   <path d="m14 12-8.501 8.501a2.12 2.12 0 0 1-2.998 0h-.002a2.12 2.12 0 0 1 0-2.998L11 9.002"></path>
   <path d="m9 7 4-4 6 6h3l-.13.648a7.648 7.648 0 0 1-5.081 5.756L15 16v-3z"></path>
+',
+  'axis-3d' => '
+  <path d="M4 4v16h16"></path>
+  <path d="m4 20 7-7"></path>
 ',
   'baby' => '
   <path d="M9 12h0"></path>
@@ -528,6 +546,11 @@ return array (
   <path d="M6 4h8a4 4 0 0 1 4 4 4 4 0 0 1-4 4H6z"></path>
   <path d="M6 12h9a4 4 0 0 1 4 4 4 4 0 0 1-4 4H6z"></path>
 ',
+  'bomb' => '
+  <circle cx="11" cy="13" r="9"></circle>
+  <path d="m19.5 9.5 1.8-1.8a2.4 2.4 0 0 0 0-3.4l-1.6-1.6a2.41 2.41 0 0 0-3.4 0l-1.8 1.8"></path>
+  <path d="m22 2-1.5 1.5"></path>
+',
   'book-open' => '
   <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path>
   <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path>
@@ -635,6 +658,17 @@ return array (
   <circle cx="6.5" cy="17.5" r="2.5"></circle>
   <circle cx="16.5" cy="17.5" r="2.5"></circle>
 ',
+  'cake' => '
+  <path d="M20 21v-8a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v8"></path>
+  <path d="M4 16s.5-1 2-1 2.5 2 4 2 2.5-2 4-2 2.5 2 4 2 2-1 2-1"></path>
+  <path d="M2 21h20"></path>
+  <path d="M7 8v2"></path>
+  <path d="M12 8v2"></path>
+  <path d="M17 8v2"></path>
+  <path d="M7 4h.01"></path>
+  <path d="M12 4h.01"></path>
+  <path d="M17 4h.01"></path>
+',
   'calculator' => '
   <rect x="4" y="2" width="16" height="20" rx="2"></rect>
   <line x1="8" x2="16" y1="6" y2="6"></line>
@@ -661,6 +695,14 @@ return array (
   <line x1="3" y1="10" x2="21" y2="10"></line>
   <path d="m9 16 2 2 4-4"></path>
 ',
+  'calendar-clock' => '
+  <path d="M21 7.5V6a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h3.5"></path>
+  <path d="M16 2v4"></path>
+  <path d="M8 2v4"></path>
+  <path d="M3 10h5"></path>
+  <path d="M17.5 17.5 16 16.25V14"></path>
+  <path d="M22 16a6 6 0 1 1-12 0 6 6 0 0 1 12 0Z"></path>
+',
   'calendar-days' => '
   <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
   <line x1="16" y1="2" x2="16" y2="6"></line>
@@ -672,6 +714,13 @@ return array (
   <path d="M8 18h.01"></path>
   <path d="M12 18h.01"></path>
   <path d="M16 18h.01"></path>
+',
+  'calendar-heart' => '
+  <path d="M21 10V6a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v14c0 1.1.9 2 2 2h7"></path>
+  <path d="M16 2v4"></path>
+  <path d="M8 2v4"></path>
+  <path d="M3 10h18"></path>
+  <path d="M21.29 14.7a2.43 2.43 0 0 0-2.65-.52c-.3.12-.57.3-.8.53l-.34.34-.35-.34a2.43 2.43 0 0 0-2.65-.53c-.3.12-.56.3-.79.53-.95.94-1 2.53.2 3.74L17.5 22l3.6-3.55c1.2-1.21 1.14-2.8.19-3.74Z"></path>
 ',
   'calendar-minus' => '
   <path d="M21 13V6a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h8"></path>
@@ -705,6 +754,14 @@ return array (
   <path d="M13 18H7"></path>
   <path d="M7 14h.01"></path>
   <path d="M17 18h.01"></path>
+',
+  'calendar-search' => '
+  <path d="M21 12V6a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v14c0 1.1.9 2 2 2h7.5"></path>
+  <path d="M16 2v4"></path>
+  <path d="M8 2v4"></path>
+  <path d="M3 10h18"></path>
+  <path d="M18 21a3 3 0 1 0 0-6 3 3 0 0 0 0 6v0Z"></path>
+  <path d="m22 22-1.5-1.5"></path>
 ',
   'calendar-x-2' => '
   <path d="M21 13V6a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h8"></path>
@@ -848,6 +905,16 @@ return array (
   <path d="M18 8c0-2.5-2-2.5-2-5"></path>
   <path d="M22 8c0-2.5-2-2.5-2-5"></path>
 ',
+  'circle-dot' => '
+  <circle cx="12" cy="12" r="10"></circle>
+  <circle cx="12" cy="12" r="1"></circle>
+',
+  'circle-ellipsis' => '
+  <circle cx="12" cy="12" r="10"></circle>
+  <path d="M17 12h.01"></path>
+  <path d="M12 12h.01"></path>
+  <path d="M7 12h.01"></path>
+',
   'circle-slashed' => '
   <circle cx="12" cy="12" r="10"></circle>
   <path d="M22 2 2 22"></path>
@@ -862,34 +929,54 @@ return array (
   <path d="m11.86 3.38 3.38 4.2"></path>
 ',
   'clipboard-check' => '
-  <path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"></path>
   <rect x="8" y="2" width="8" height="4" rx="1" ry="1"></rect>
-  <path d="m9 13 2 2 4-4"></path>
+  <path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"></path>
+  <path d="m9 14 2 2 4-4"></path>
 ',
   'clipboard-copy' => '
+  <rect x="8" y="2" width="8" height="4" rx="1" ry="1"></rect>
   <path d="M8 4H6a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-2"></path>
   <path d="M16 4h2a2 2 0 0 1 2 2v4"></path>
-  <rect x="8" y="2" width="8" height="4" rx="1" ry="1"></rect>
   <path d="M21 14H11"></path>
   <path d="m15 10-4 4 4 4"></path>
 ',
-  'clipboard-list' => '
-  <path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"></path>
+  'clipboard-edit' => '
   <rect x="8" y="2" width="8" height="4" rx="1" ry="1"></rect>
+  <path d="M10.42 12.61a2.1 2.1 0 1 1 2.97 2.97L7.95 21 4 22l.99-3.95 5.43-5.44Z"></path>
+  <path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-5.5"></path>
+  <path d="M4 13.5V6a2 2 0 0 1 2-2h2"></path>
+',
+  'clipboard-list' => '
+  <rect x="8" y="2" width="8" height="4" rx="1" ry="1"></rect>
+  <path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"></path>
   <path d="M12 11h4"></path>
   <path d="M12 16h4"></path>
   <path d="M8 11h.01"></path>
   <path d="M8 16h.01"></path>
 ',
-  'clipboard-x' => '
-  <path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"></path>
+  'clipboard-signature' => '
   <rect x="8" y="2" width="8" height="4" rx="1" ry="1"></rect>
+  <path d="M8 4H6a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-.5"></path>
+  <path d="M16 4h2a2 2 0 0 1 1.73 1"></path>
+  <path d="M18.42 9.61a2.1 2.1 0 1 1 2.97 2.97L16.95 17 13 18l.99-3.95 4.43-4.44Z"></path>
+  <path d="M8 18h1"></path>
+',
+  'clipboard-type' => '
+  <rect x="8" y="2" width="8" height="4" rx="1" ry="1"></rect>
+  <path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"></path>
+  <path d="M9 12v-1h6v1"></path>
+  <path d="M11 17h2"></path>
+  <path d="M12 11v6"></path>
+',
+  'clipboard-x' => '
+  <rect x="8" y="2" width="8" height="4" rx="1" ry="1"></rect>
+  <path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"></path>
   <path d="m15 11-6 6"></path>
   <path d="m9 11 6 6"></path>
 ',
   'clipboard' => '
-  <path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"></path>
   <rect x="8" y="2" width="8" height="4" rx="1" ry="1"></rect>
+  <path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"></path>
 ',
   'clock-1' => '
   <circle cx="12" cy="12" r="10"></circle>
@@ -942,6 +1029,18 @@ return array (
   'clock' => '
   <circle cx="12" cy="12" r="10"></circle>
   <polyline points="12 6 12 12 16 14"></polyline>
+',
+  'cloud-cog' => '
+  <path d="M20 16.2A4.5 4.5 0 0 0 17.5 8h-1.8A7 7 0 1 0 4 14.9"></path>
+  <circle cx="12" cy="17" r="3"></circle>
+  <path d="M12 13v1"></path>
+  <path d="M12 20v1"></path>
+  <path d="M16 17h-1"></path>
+  <path d="M9 17H8"></path>
+  <path d="m15 14-.88.88"></path>
+  <path d="M9.88 19.12 9 20"></path>
+  <path d="m15 20-.88-.88"></path>
+  <path d="M9.88 14.88 9 14"></path>
 ',
   'cloud-drizzle' => '
   <path d="M4 14.899A7 7 0 1 1 15.71 8h1.79a4.5 4.5 0 0 1 2.5 8.242"></path>
@@ -1068,6 +1167,22 @@ return array (
   <line x1="6" y1="2" x2="6" y2="4"></line>
   <line x1="10" y1="2" x2="10" y2="4"></line>
   <line x1="14" y1="2" x2="14" y2="4"></line>
+',
+  'cog' => '
+  <path d="M12 20a8 8 0 1 0 0-16 8 8 0 0 0 0 16Z"></path>
+  <path d="M12 14a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z"></path>
+  <path d="M12 2v2"></path>
+  <path d="M12 22v-2"></path>
+  <path d="m17 20.66-1-1.73"></path>
+  <path d="M11 10.27 7 3.34"></path>
+  <path d="m20.66 17-1.73-1"></path>
+  <path d="m3.34 7 1.73 1"></path>
+  <path d="M14 12h8"></path>
+  <path d="M2 12h2"></path>
+  <path d="m20.66 7-1.73 1"></path>
+  <path d="m3.34 17 1.73-1"></path>
+  <path d="m17 3.34-1 1.73"></path>
+  <path d="m11 13.73-4 6.93"></path>
 ',
   'coins' => '
   <circle cx="8" cy="8" r="6"></circle>
@@ -1268,6 +1383,11 @@ return array (
   <path d="M15 6h.01"></path>
   <path d="M18 9h.01"></path>
 ',
+  'diff' => '
+  <path d="M12 3v14"></path>
+  <path d="M5 10h14"></path>
+  <path d="M5 21h14"></path>
+',
   'disc' => '
   <circle cx="12" cy="12" r="10"></circle>
   <circle cx="12" cy="12" r="3"></circle>
@@ -1399,9 +1519,70 @@ return array (
   <path d="M5 19.5A3.5 3.5 0 0 1 8.5 16H12v3.5a3.5 3.5 0 1 1-7 0z"></path>
   <path d="M5 12.5A3.5 3.5 0 0 1 8.5 9H12v7H8.5A3.5 3.5 0 0 1 5 12.5z"></path>
 ',
+  'file-archive' => '
+  <path d="M4 22V4c0-.5.2-1 .6-1.4C5 2.2 5.5 2 6 2h8.5L20 7.5V20c0 .5-.2 1-.6 1.4-.4.4-.9.6-1.4.6h-2"></path>
+  <polyline points="14 2 14 8 20 8"></polyline>
+  <circle cx="10" cy="20" r="2"></circle>
+  <path d="M10 7V6"></path>
+  <path d="M10 12v-1"></path>
+  <path d="M10 18v-2"></path>
+',
+  'file-audio-2' => '
+  <path d="M4 22h14a2 2 0 0 0 2-2V7.5L14.5 2H6a2 2 0 0 0-2 2v2"></path>
+  <polyline points="14 2 14 8 20 8"></polyline>
+  <path d="M2 17v-3a4 4 0 0 1 8 0v3"></path>
+  <circle cx="9" cy="17" r="1"></circle>
+  <circle cx="3" cy="17" r="1"></circle>
+',
+  'file-audio' => '
+  <path d="M17.5 22h.5c.5 0 1-.2 1.4-.6.4-.4.6-.9.6-1.4V7.5L14.5 2H6c-.5 0-1 .2-1.4.6C4.2 3 4 3.5 4 4v3"></path>
+  <polyline points="14 2 14 8 20 8"></polyline>
+  <path d="M10 20v-1a2 2 0 1 1 4 0v1a2 2 0 1 1-4 0Z"></path>
+  <path d="M6 20v-1a2 2 0 1 0-4 0v1a2 2 0 1 0 4 0Z"></path>
+  <path d="M2 19v-3a6 6 0 0 1 12 0v3"></path>
+',
+  'file-axis-3d' => '
+  <path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z"></path>
+  <polyline points="14 2 14 8 20 8"></polyline>
+  <path d="M8 10v8h8"></path>
+  <path d="m8 18 4-4"></path>
+',
+  'file-badge-2' => '
+  <path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z"></path>
+  <path d="M12 13a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"></path>
+  <path d="m14 12.5 1 5.5-3-1-3 1 1-5.5"></path>
+',
+  'file-badge' => '
+  <path d="M4 7V4a2 2 0 0 1 2-2h8.5L20 7.5V20a2 2 0 0 1-2 2h-6"></path>
+  <polyline points="14 2 14 8 20 8"></polyline>
+  <path d="M5 17a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"></path>
+  <path d="M7 16.5 8 22l-3-1-3 1 1-5.5"></path>
+',
+  'file-bar-chart-2' => '
+  <path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z"></path>
+  <polyline points="14 2 14 8 20 8"></polyline>
+  <path d="M12 18v-6"></path>
+  <path d="M8 18v-1"></path>
+  <path d="M16 18v-3"></path>
+',
+  'file-bar-chart' => '
+  <path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z"></path>
+  <polyline points="14 2 14 8 20 8"></polyline>
+  <path d="M12 18v-4"></path>
+  <path d="M8 18v-2"></path>
+  <path d="M16 18v-6"></path>
+',
+  'file-box' => '
+  <path d="M14.5 22H18a2 2 0 0 0 2-2V7.5L14.5 2H6a2 2 0 0 0-2 2v4"></path>
+  <polyline points="14 2 14 8 20 8"></polyline>
+  <path d="M2.97 13.12c-.6.36-.97 1.02-.97 1.74v3.28c0 .72.37 1.38.97 1.74l3 1.83c.63.39 1.43.39 2.06 0l3-1.83c.6-.36.97-1.02.97-1.74v-3.28c0-.72-.37-1.38-.97-1.74l-3-1.83a1.97 1.97 0 0 0-2.06 0l-3 1.83Z"></path>
+  <path d="m7 17-4.74-2.85"></path>
+  <path d="m7 17 4.74-2.85"></path>
+  <path d="M7 17v5"></path>
+',
   'file-check-2' => '
   <path d="M4 22h14a2 2 0 0 0 2-2V7.5L14.5 2H6a2 2 0 0 0-2 2v4"></path>
-  <path d="M14 2v6h6"></path>
+  <polyline points="14 2 14 8 20 8"></polyline>
   <path d="m3 15 2 2 4-4"></path>
 ',
   'file-check' => '
@@ -1409,28 +1590,115 @@ return array (
   <polyline points="14 2 14 8 20 8"></polyline>
   <path d="m9 15 2 2 4-4"></path>
 ',
+  'file-clock' => '
+  <path d="M16 22h2c.5 0 1-.2 1.4-.6.4-.4.6-.9.6-1.4V7.5L14.5 2H6c-.5 0-1 .2-1.4.6C4.2 3 4 3.5 4 4v3"></path>
+  <polyline points="14 2 14 8 20 8"></polyline>
+  <circle cx="8" cy="16" r="6"></circle>
+  <path d="M9.5 17.5 8 16.25V14"></path>
+',
   'file-code' => '
   <path d="M4 22h14a2 2 0 0 0 2-2V7.5L14.5 2H6a2 2 0 0 0-2 2v4"></path>
-  <path d="M14 2v6h6"></path>
+  <polyline points="14 2 14 8 20 8"></polyline>
   <path d="m9 18 3-3-3-3"></path>
   <path d="m5 12-3 3 3 3"></path>
 ',
+  'file-cog-2' => '
+  <path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z"></path>
+  <polyline points="14 2 14 8 20 8"></polyline>
+  <circle cx="12" cy="15" r="2"></circle>
+  <path d="M12 12v1"></path>
+  <path d="M12 17v1"></path>
+  <path d="m14.6 13.5-.87.5"></path>
+  <path d="m10.27 16-.87.5"></path>
+  <path d="m14.6 16.5-.87-.5"></path>
+  <path d="m10.27 14-.87-.5"></path>
+',
+  'file-cog' => '
+  <path d="M4 6V4a2 2 0 0 1 2-2h8.5L20 7.5V20a2 2 0 0 1-2 2H4"></path>
+  <polyline points="14 2 14 8 20 8"></polyline>
+  <circle cx="6" cy="14" r="3"></circle>
+  <path d="M6 10v1"></path>
+  <path d="M6 17v1"></path>
+  <path d="M10 14H9"></path>
+  <path d="M3 14H2"></path>
+  <path d="m9 11-.88.88"></path>
+  <path d="M3.88 16.12 3 17"></path>
+  <path d="m9 17-.88-.88"></path>
+  <path d="M3.88 11.88 3 11"></path>
+',
+  'file-diff' => '
+  <path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z"></path>
+  <path d="M12 13V7"></path>
+  <path d="M9 10h6"></path>
+  <path d="M9 17h6"></path>
+',
   'file-digit' => '
   <path d="M4 22h14a2 2 0 0 0 2-2V7.5L14.5 2H6a2 2 0 0 0-2 2v4"></path>
-  <path d="M14 2v6h6"></path>
+  <polyline points="14 2 14 8 20 8"></polyline>
   <path d="M10 12h2v6"></path>
   <rect x="2" y="12" width="4" height="6"></rect>
   <path d="M10 18h4"></path>
 ',
+  'file-down' => '
+  <path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z"></path>
+  <polyline points="14 2 14 8 20 8"></polyline>
+  <path d="M12 18v-6"></path>
+  <path d="m9 15 3 3 3-3"></path>
+',
+  'file-edit' => '
+  <path d="M4 13.5V4a2 2 0 0 1 2-2h8.5L20 7.5V20a2 2 0 0 1-2 2h-5.5"></path>
+  <polyline points="14 2 14 8 20 8"></polyline>
+  <path d="M10.42 12.61a2.1 2.1 0 1 1 2.97 2.97L7.95 21 4 22l.99-3.95 5.43-5.44Z"></path>
+',
+  'file-heart' => '
+  <path d="M4 6V4a2 2 0 0 1 2-2h8.5L20 7.5V20a2 2 0 0 1-2 2H4"></path>
+  <polyline points="14 2 14 8 20 8"></polyline>
+  <path d="M10.29 10.7a2.43 2.43 0 0 0-2.66-.52c-.29.12-.56.3-.78.53l-.35.34-.35-.34a2.43 2.43 0 0 0-2.65-.53c-.3.12-.56.3-.79.53-.95.94-1 2.53.2 3.74L6.5 18l3.6-3.55c1.2-1.21 1.14-2.8.19-3.74Z"></path>
+',
+  'file-image' => '
+  <path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z"></path>
+  <polyline points="14 2 14 8 20 8"></polyline>
+  <circle cx="10" cy="13" r="2"></circle>
+  <path d="m20 17-1.09-1.09a2 2 0 0 0-2.82 0L10 22"></path>
+',
   'file-input' => '
   <path d="M4 22h14a2 2 0 0 0 2-2V7.5L14.5 2H6a2 2 0 0 0-2 2v4"></path>
-  <path d="M14 2v6h6"></path>
+  <polyline points="14 2 14 8 20 8"></polyline>
   <path d="M2 15h10"></path>
   <path d="m9 18 3-3-3-3"></path>
 ',
+  'file-key-2' => '
+  <path d="M4 10V4a2 2 0 0 1 2-2h8.5L20 7.5V20a2 2 0 0 1-2 2H4"></path>
+  <polyline points="14 2 14 8 20 8"></polyline>
+  <circle cx="4" cy="16" r="2"></circle>
+  <path d="m10 10-4.5 4.5"></path>
+  <path d="m9 11 1 1"></path>
+',
+  'file-key' => '
+  <path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z"></path>
+  <circle cx="10" cy="16" r="2"></circle>
+  <path d="m16 10-4.5 4.5"></path>
+  <path d="m15 11 1 1"></path>
+',
+  'file-line-chart' => '
+  <path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z"></path>
+  <polyline points="14 2 14 8 20 8"></polyline>
+  <path d="m16 13-3.5 3.5-2-2L8 17"></path>
+',
+  'file-lock-2' => '
+  <path d="M4 5V4a2 2 0 0 1 2-2h8.5L20 7.5V20a2 2 0 0 1-2 2H4"></path>
+  <polyline points="14 2 14 8 20 8"></polyline>
+  <rect x="2" y="13" width="8" height="5" rx="1"></rect>
+  <path d="M8 13v-2a2 2 0 1 0-4 0v2"></path>
+',
+  'file-lock' => '
+  <path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z"></path>
+  <rect x="8" y="12" width="8" height="6" rx="1"></rect>
+  <path d="M15 12v-2a3 3 0 1 0-6 0v2"></path>
+',
   'file-minus-2' => '
   <path d="M4 22h14a2 2 0 0 0 2-2V7.5L14.5 2H6a2 2 0 0 0-2 2v4"></path>
-  <path d="M14 2v6h6"></path>
+  <polyline points="14 2 14 8 20 8"></polyline>
   <path d="M3 15h6"></path>
 ',
   'file-minus' => '
@@ -1440,13 +1708,19 @@ return array (
 ',
   'file-output' => '
   <path d="M4 22h14a2 2 0 0 0 2-2V7.5L14.5 2H6a2 2 0 0 0-2 2v4"></path>
-  <path d="M14 2v6h6"></path>
+  <polyline points="14 2 14 8 20 8"></polyline>
   <path d="M2 15h10"></path>
   <path d="m5 12-3 3 3 3"></path>
 ',
+  'file-pie-chart' => '
+  <path d="M16 22h2a2 2 0 0 0 2-2V7.5L14.5 2H6a2 2 0 0 0-2 2v3"></path>
+  <polyline points="14 2 14 8 20 8"></polyline>
+  <path d="M4.04 11.71a5.84 5.84 0 1 0 8.2 8.29"></path>
+  <path d="M13.83 16A5.83 5.83 0 0 0 8 10.17V16h5.83Z"></path>
+',
   'file-plus-2' => '
   <path d="M4 22h14a2 2 0 0 0 2-2V7.5L14.5 2H6a2 2 0 0 0-2 2v4"></path>
-  <path d="M14 2v6h6"></path>
+  <polyline points="14 2 14 8 20 8"></polyline>
   <path d="M3 15h6"></path>
   <path d="M6 12v6"></path>
 ',
@@ -1456,11 +1730,55 @@ return array (
   <line x1="12" y1="18" x2="12" y2="12"></line>
   <line x1="9" y1="15" x2="15" y2="15"></line>
 ',
+  'file-question' => '
+  <path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z"></path>
+  <path d="M10 10.3c.2-.4.5-.8.9-1a2.1 2.1 0 0 1 2.6.4c.3.4.5.8.5 1.3 0 1.3-2 2-2 2"></path>
+  <path d="M12 17h.01"></path>
+',
+  'file-scan' => '
+  <path d="M20 10V7.5L14.5 2H6a2 2 0 0 0-2 2v16c0 1.1.9 2 2 2h4.5"></path>
+  <polyline points="14 2 14 8 20 8"></polyline>
+  <path d="M16 22a2 2 0 0 1-2-2"></path>
+  <path d="M20 22a2 2 0 0 0 2-2"></path>
+  <path d="M20 14a2 2 0 0 1 2 2"></path>
+  <path d="M16 14a2 2 0 0 0-2 2"></path>
+',
+  'file-search-2' => '
+  <path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z"></path>
+  <polyline points="14 2 14 8 20 8"></polyline>
+  <circle cx="11.5" cy="14.5" r="2.5"></circle>
+  <path d="M13.25 16.25 15 18"></path>
+',
   'file-search' => '
   <path d="M4 22h14a2 2 0 0 0 2-2V7.5L14.5 2H6a2 2 0 0 0-2 2v3"></path>
-  <path d="M14 2v6h6"></path>
+  <polyline points="14 2 14 8 20 8"></polyline>
   <path d="M5 17a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"></path>
   <path d="m9 18-1.5-1.5"></path>
+',
+  'file-signature' => '
+  <path d="M20 19.5v.5a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8.5L18 5.5"></path>
+  <path d="M8 18h1"></path>
+  <path d="M18.42 9.61a2.1 2.1 0 1 1 2.97 2.97L16.95 17 13 18l.99-3.95 4.43-4.44Z"></path>
+',
+  'file-spreadsheet' => '
+  <path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z"></path>
+  <polyline points="14 2 14 8 20 8"></polyline>
+  <path d="M8 13h2"></path>
+  <path d="M8 17h2"></path>
+  <path d="M14 13h2"></path>
+  <path d="M14 17h2"></path>
+',
+  'file-symlink' => '
+  <path d="M4 22h14a2 2 0 0 0 2-2V7.5L14.5 2H6a2 2 0 0 0-2 2v7"></path>
+  <polyline points="14 2 14 8 20 8"></polyline>
+  <path d="m10 18 3-3-3-3"></path>
+  <path d="M4 18v-1a2 2 0 0 1 2-2h6"></path>
+',
+  'file-terminal' => '
+  <path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z"></path>
+  <polyline points="14 2 14 8 20 8"></polyline>
+  <path d="m8 16 2-2-2-2"></path>
+  <path d="M12 18h4"></path>
 ',
   'file-text' => '
   <path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z"></path>
@@ -1468,6 +1786,48 @@ return array (
   <line x1="16" y1="13" x2="8" y2="13"></line>
   <line x1="16" y1="17" x2="8" y2="17"></line>
   <line x1="10" y1="9" x2="8" y2="9"></line>
+',
+  'file-type' => '
+  <path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z"></path>
+  <polyline points="14 2 14 8 20 8"></polyline>
+  <path d="M9 13v-1h6v1"></path>
+  <path d="M11 18h2"></path>
+  <path d="M12 12v6"></path>
+',
+  'file-up' => '
+  <path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z"></path>
+  <polyline points="14 2 14 8 20 8"></polyline>
+  <path d="M12 12v6"></path>
+  <path d="m15 15-3-3-3 3"></path>
+',
+  'file-video-2' => '
+  <path d="M4 8V4a2 2 0 0 1 2-2h8.5L20 7.5V20a2 2 0 0 1-2 2H4"></path>
+  <polyline points="14 2 14 8 20 8"></polyline>
+  <path d="m10 15.5 4 2.5v-6l-4 2.5"></path>
+  <rect x="2" y="12" width="8" height="6" rx="1"></rect>
+',
+  'file-video' => '
+  <path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z"></path>
+  <polyline points="14 2 14 8 20 8"></polyline>
+  <path d="m10 11 5 3-5 3v-6Z"></path>
+',
+  'file-volume-2' => '
+  <path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z"></path>
+  <polyline points="14 2 14 8 20 8"></polyline>
+  <path d="M11.5 13.5c.32.4.5.94.5 1.5s-.18 1.1-.5 1.5"></path>
+  <path d="M15 12c.64.8 1 1.87 1 3s-.36 2.2-1 3"></path>
+  <path d="M8 15h.01"></path>
+',
+  'file-volume' => '
+  <path d="M4 22h14a2 2 0 0 0 2-2V7.5L14.5 2H6a2 2 0 0 0-2 2v3"></path>
+  <polyline points="14 2 14 8 20 8"></polyline>
+  <path d="m7 10-3 2H2v4h2l3 2v-8Z"></path>
+  <path d="M11 11c.64.8 1 1.87 1 3s-.36 2.2-1 3"></path>
+',
+  'file-warning' => '
+  <path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z"></path>
+  <path d="M12 9v4"></path>
+  <path d="M12 17h.01"></path>
 ',
   'file-x-2' => '
   <path d="M4 22h14a2 2 0 0 0 2-2V7.5L14.5 2H6a2 2 0 0 0-2 2v4"></path>
@@ -1578,20 +1938,130 @@ return array (
   <path d="M21 17v2a2 2 0 0 1-2 2h-2"></path>
   <path d="M7 21H5a2 2 0 0 1-2-2v-2"></path>
 ',
+  'folder-archive' => '
+  <path d="M22 20V8a2 2 0 0 0-2-2h-7.93a2 2 0 0 1-1.66-.9l-.82-1.2A2 2 0 0 0 7.93 3H4a2 2 0 0 0-2 2v13c0 1.1.9 2 2 2h6"></path>
+  <circle cx="16" cy="19" r="2"></circle>
+  <path d="M16 11v-1"></path>
+  <path d="M16 17v-2"></path>
+',
+  'folder-check' => '
+  <path d="M4 20h16a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2h-7.93a2 2 0 0 1-1.66-.9l-.82-1.2A2 2 0 0 0 7.93 3H4a2 2 0 0 0-2 2v13c0 1.1.9 2 2 2Z"></path>
+  <path d="m9 13 2 2 4-4"></path>
+',
+  'folder-clock' => '
+  <path d="M7 20H4a2 2 0 0 1-2-2V5c0-1.1.9-2 2-2h3.93a2 2 0 0 1 1.66.9l.82 1.2a2 2 0 0 0 1.66.9H20a2 2 0 0 1 2 2"></path>
+  <circle cx="16" cy="16" r="6"></circle>
+  <path d="M16 14v2l1 1"></path>
+',
+  'folder-closed' => '
+  <path d="M4 20h16a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2h-7.93a2 2 0 0 1-1.66-.9l-.82-1.2A2 2 0 0 0 7.93 3H4a2 2 0 0 0-2 2v13c0 1.1.9 2 2 2Z"></path>
+  <path d="M2 10h20"></path>
+',
+  'folder-cog-2' => '
+  <path d="M4 20h16a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2h-7.93a2 2 0 0 1-1.66-.9l-.82-1.2A2 2 0 0 0 7.93 3H4a2 2 0 0 0-2 2v13c0 1.1.9 2 2 2Z"></path>
+  <circle cx="12" cy="13" r="2"></circle>
+  <path d="M12 10v1"></path>
+  <path d="M12 15v1"></path>
+  <path d="m14.6 11.5-.87.5"></path>
+  <path d="m10.27 14-.87.5"></path>
+  <path d="m14.6 14.5-.87-.5"></path>
+  <path d="m10.27 12-.87-.5"></path>
+',
+  'folder-cog' => '
+  <path d="M10.5 20H4a2 2 0 0 1-2-2V5c0-1.1.9-2 2-2h3.93a2 2 0 0 1 1.66.9l.82 1.2a2 2 0 0 0 1.66.9H20a2 2 0 0 1 2 2v3"></path>
+  <circle cx="18" cy="18" r="3"></circle>
+  <path d="M18 14v1"></path>
+  <path d="M18 21v1"></path>
+  <path d="M22 18h-1"></path>
+  <path d="M15 18h-1"></path>
+  <path d="m21 15-.88.88"></path>
+  <path d="M15.88 20.12 15 21"></path>
+  <path d="m21 21-.88-.88"></path>
+  <path d="M15.88 15.88 15 15"></path>
+',
+  'folder-down' => '
+  <path d="M4 20h16a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2h-7.93a2 2 0 0 1-1.66-.9l-.82-1.2A2 2 0 0 0 7.93 3H4a2 2 0 0 0-2 2v13c0 1.1.9 2 2 2Z"></path>
+  <path d="M12 10v6"></path>
+  <path d="m15 13-3 3-3-3"></path>
+',
+  'folder-edit' => '
+  <path d="M8.42 10.61a2.1 2.1 0 1 1 2.97 2.97L5.95 19 2 20l.99-3.95 5.43-5.44Z"></path>
+  <path d="M2 11.5V5c0-1.1.9-2 2-2h3.93a2 2 0 0 1 1.66.9l.82 1.2a2 2 0 0 0 1.66.9H20a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2h-9.5"></path>
+',
+  'folder-heart' => '
+  <path d="M11 20H4a2 2 0 0 1-2-2V5c0-1.1.9-2 2-2h3.93a2 2 0 0 1 1.66.9l.82 1.2a2 2 0 0 0 1.66.9H20a2 2 0 0 1 2 2v1.5"></path>
+  <path d="M21.29 13.7a2.43 2.43 0 0 0-2.65-.52c-.3.12-.57.3-.8.53l-.34.34-.35-.34a2.43 2.43 0 0 0-2.65-.53c-.3.12-.56.3-.79.53-.95.94-1 2.53.2 3.74L17.5 21l3.6-3.55c1.2-1.21 1.14-2.8.19-3.74Z"></path>
+',
+  'folder-input' => '
+  <path d="M2 9V5c0-1.1.9-2 2-2h3.93a2 2 0 0 1 1.66.9l.82 1.2a2 2 0 0 0 1.66.9H20a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2v-1"></path>
+  <path d="M2 13h10"></path>
+  <path d="m9 16 3-3-3-3"></path>
+',
+  'folder-key' => '
+  <path d="M10 20H4a2 2 0 0 1-2-2V5c0-1.1.9-2 2-2h3.93a2 2 0 0 1 1.66.9l.82 1.2a2 2 0 0 0 1.66.9H20a2 2 0 0 1 2 2v2"></path>
+  <circle cx="16" cy="20" r="2"></circle>
+  <path d="m22 14-4.5 4.5"></path>
+  <path d="m21 15 1 1"></path>
+',
+  'folder-lock' => '
+  <path d="M10 20H4a2 2 0 0 1-2-2V5c0-1.1.9-2 2-2h3.93a2 2 0 0 1 1.66.9l.82 1.2a2 2 0 0 0 1.66.9H20a2 2 0 0 1 2 2v2.5"></path>
+  <rect x="14" y="17" width="8" height="5" rx="1"></rect>
+  <path d="M20 17v-2a2 2 0 1 0-4 0v2"></path>
+',
   'folder-minus' => '
-  <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
-  <line x1="9" y1="14" x2="15" y2="14"></line>
+  <path d="M4 20h16a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2h-7.93a2 2 0 0 1-1.66-.9l-.82-1.2A2 2 0 0 0 7.93 3H4a2 2 0 0 0-2 2v13c0 1.1.9 2 2 2Z"></path>
+  <line x1="9" y1="13" x2="15" y2="13"></line>
 ',
   'folder-open' => '
-  <path d="m6 17 2-5h14l-3 8a2 2 0 0 1-2 1H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h7a2 2 0 0 1 2 2v4"></path>
+  <path d="m6 14 1.45-2.9A2 2 0 0 1 9.24 10H20a2 2 0 0 1 1.94 2.5l-1.55 6a2 2 0 0 1-1.94 1.5H4a2 2 0 0 1-2-2V5c0-1.1.9-2 2-2h3.93a2 2 0 0 1 1.66.9l.82 1.2a2 2 0 0 0 1.66.9H18a2 2 0 0 1 2 2v2"></path>
+',
+  'folder-output' => '
+  <path d="M2 7.5V5c0-1.1.9-2 2-2h3.93a2 2 0 0 1 1.66.9l.82 1.2a2 2 0 0 0 1.66.9H20a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H2"></path>
+  <path d="M2 13h10"></path>
+  <path d="m5 10-3 3 3 3"></path>
 ',
   'folder-plus' => '
-  <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
-  <line x1="12" y1="11" x2="12" y2="17"></line>
-  <line x1="9" y1="14" x2="15" y2="14"></line>
+  <path d="M4 20h16a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2h-7.93a2 2 0 0 1-1.66-.9l-.82-1.2A2 2 0 0 0 7.93 3H4a2 2 0 0 0-2 2v13c0 1.1.9 2 2 2Z"></path>
+  <line x1="12" y1="10" x2="12" y2="16"></line>
+  <line x1="9" y1="13" x2="15" y2="13"></line>
+',
+  'folder-search-2' => '
+  <path d="M4 20h16a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2h-7.93a2 2 0 0 1-1.66-.9l-.82-1.2A2 2 0 0 0 7.93 3H4a2 2 0 0 0-2 2v13c0 1.1.9 2 2 2Z"></path>
+  <circle cx="11.5" cy="12.5" r="2.5"></circle>
+  <path d="M13.27 14.27 15 16"></path>
+',
+  'folder-search' => '
+  <path d="M11 20H4a2 2 0 0 1-2-2V5c0-1.1.9-2 2-2h3.93a2 2 0 0 1 1.66.9l.82 1.2a2 2 0 0 0 1.66.9H20a2 2 0 0 1 2 2v4"></path>
+  <circle cx="17" cy="17" r="3"></circle>
+  <path d="m21 21-1.5-1.5"></path>
+',
+  'folder-symlink' => '
+  <path d="M2 9V5c0-1.1.9-2 2-2h3.93a2 2 0 0 1 1.66.9l.82 1.2a2 2 0 0 0 1.66.9H20a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H2"></path>
+  <path d="m8 16 3-3-3-3"></path>
+  <path d="M2 16v-1a2 2 0 0 1 2-2h6"></path>
+',
+  'folder-tree' => '
+  <path d="M13 10h7a1 1 0 0 0 1-1V6a1 1 0 0 0-1-1h-2.5a1 1 0 0 1-.8-.4l-.9-1.2A1 1 0 0 0 15 3h-2a1 1 0 0 0-1 1v5a1 1 0 0 0 1 1Z"></path>
+  <path d="M13 21h7a1 1 0 0 0 1-1v-3a1 1 0 0 0-1-1h-2.88a1 1 0 0 1-.9-.55l-.44-.9a1 1 0 0 0-.9-.55H13a1 1 0 0 0-1 1v5a1 1 0 0 0 1 1Z"></path>
+  <path d="M3 3v2c0 1.1.9 2 2 2h3"></path>
+  <path d="M3 3v13c0 1.1.9 2 2 2h3"></path>
+',
+  'folder-up' => '
+  <path d="M4 20h16a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2h-7.93a2 2 0 0 1-1.66-.9l-.82-1.2A2 2 0 0 0 7.93 3H4a2 2 0 0 0-2 2v13c0 1.1.9 2 2 2Z"></path>
+  <path d="M12 10v6"></path>
+  <path d="m9 13 3-3 3 3"></path>
+',
+  'folder-x' => '
+  <path d="M4 20h16a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2h-7.93a2 2 0 0 1-1.66-.9l-.82-1.2A2 2 0 0 0 7.93 3H4a2 2 0 0 0-2 2v13c0 1.1.9 2 2 2Z"></path>
+  <path d="m9.5 10.5 5 5"></path>
+  <path d="m14.5 10.5-5 5"></path>
 ',
   'folder' => '
-  <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
+  <path d="M4 20h16a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2h-7.93a2 2 0 0 1-1.66-.9l-.82-1.2A2 2 0 0 0 7.93 3H4a2 2 0 0 0-2 2v13c0 1.1.9 2 2 2Z"></path>
+',
+  'folders' => '
+  <path d="M8 17h12a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2h-3.93a2 2 0 0 1-1.66-.9l-.82-1.2a2 2 0 0 0-1.66-.9H8a2 2 0 0 0-2 2v9c0 1.1.9 2 2 2Z"></path>
+  <path d="M2 8v11c0 1.1.9 2 2 2h14"></path>
 ',
   'form-input' => '
   <rect x="2" y="6" width="20" height="12" rx="2"></rect>
@@ -2020,6 +2490,12 @@ return array (
   <path d="M7 22a5 5 0 0 1-2-4"></path>
   <path d="M3.3 14A6.8 6.8 0 0 1 2 10c0-4.4 4.5-8 10-8s10 3.6 10 8-4.5 8-10 8a12 12 0 0 1-5-1"></path>
   <path d="M5 18a2 2 0 1 0 0-4 2 2 0 0 0 0 4z"></path>
+',
+  'laugh' => '
+  <circle cx="12" cy="12" r="10"></circle>
+  <path d="M18 13a6 6 0 0 1-6 5 6 6 0 0 1-6-5h12Z"></path>
+  <line x1="9" y1="9" x2="9.01" y2="9"></line>
+  <line x1="15" y1="9" x2="15.01" y2="9"></line>
 ',
   'layers' => '
   <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
@@ -2482,6 +2958,11 @@ return array (
   <line x1="21" y1="6" x2="11" y2="6"></line>
   <line x1="21" y1="18" x2="11" y2="18"></line>
 ',
+  'package-2' => '
+  <path d="M3 9h18v10a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V9Z"></path>
+  <path d="m3 9 2.45-4.9A2 2 0 0 1 7.24 3h9.52a2 2 0 0 1 1.8 1.1L21 9"></path>
+  <path d="M12 3v6"></path>
+',
   'package-check' => '
   <path d="m16 16 2 2 4-4"></path>
   <path d="M21 10V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l2-1.14"></path>
@@ -2563,6 +3044,17 @@ return array (
 ',
   'paperclip' => '
   <path d="m21.44 11.05-9.19 9.19a6 6 0 0 1-8.49-8.49l8.57-8.57A4 4 0 1 1 18 8.84l-8.59 8.57a2 2 0 0 1-2.83-2.83l8.49-8.48"></path>
+',
+  'party-popper' => '
+  <path d="M5.8 11.3 2 22l10.7-3.79"></path>
+  <path d="M4 3h.01"></path>
+  <path d="M22 8h.01"></path>
+  <path d="M15 2h.01"></path>
+  <path d="M22 20h.01"></path>
+  <path d="m22 2-2.24.75a2.9 2.9 0 0 0-1.96 3.12v0c.1.86-.57 1.63-1.45 1.63h-.38c-.86 0-1.6.6-1.76 1.44L14 10"></path>
+  <path d="m22 13-.82-.33c-.86-.34-1.82.2-1.98 1.11v0c-.11.7-.72 1.22-1.43 1.22H17"></path>
+  <path d="m11 2 .33.82c.34.86-.2 1.82-1.11 1.98v0C9.52 4.9 9 5.52 9 6.23V7"></path>
+  <path d="M11 13c1.93 1.93 2.83 4.17 2 5-.83.83-3.07-.07-5-2-1.93-1.93-2.83-4.17-2-5 .83-.83 3.07.07 5 2Z"></path>
 ',
   'pause-circle' => '
   <circle cx="12" cy="12" r="10"></circle>
@@ -2726,7 +3218,7 @@ return array (
   <rect x="6" y="14" width="12" height="8"></rect>
 ',
   'puzzle' => '
-  <path d="m12 2 3.6 3.6c2.4-6.3 9.1.4 2.8 2.8L22 12l-3.6 3.6c-2.4-6.3-9.1.4-2.8 2.8L12 22l-3.6-3.6C6 24.7-.7 18 5.6 15.6L2 12l3.6-3.6C8 14.7 14.7 8 8.4 5.6L12 2z"></path>
+  <path d="M19.439 7.85c-.049.322.059.648.289.878l1.568 1.568c.47.47.706 1.087.706 1.704s-.235 1.233-.706 1.704l-1.611 1.611a.98.98 0 0 1-.837.276c-.47-.07-.802-.48-.968-.925a2.501 2.501 0 1 0-3.214 3.214c.446.166.855.497.925.968a.979.979 0 0 1-.276.837l-1.61 1.61a2.404 2.404 0 0 1-1.705.707 2.402 2.402 0 0 1-1.704-.706l-1.568-1.568a1.026 1.026 0 0 0-.877-.29c-.493.074-.84.504-1.02.968a2.5 2.5 0 1 1-3.237-3.237c.464-.18.894-.527.967-1.02a1.026 1.026 0 0 0-.289-.877l-1.568-1.568A2.402 2.402 0 0 1 1.998 12c0-.617.236-1.234.706-1.704L4.23 8.77c.24-.24.581-.353.917-.303.515.077.877.528 1.073 1.01a2.5 2.5 0 1 0 3.259-3.259c-.482-.196-.933-.558-1.01-1.073-.05-.336.062-.676.303-.917l1.525-1.525A2.402 2.402 0 0 1 12 1.998c.617 0 1.234.236 1.704.706l1.568 1.568c.23.23.556.338.877.29.493-.074.84-.504 1.02-.968a2.5 2.5 0 1 1 3.237 3.237c-.464.18-.894.527-.967 1.02Z"></path>
 ',
   'qr-code' => '
   <rect x="2" y="2" width="8" height="8"></rect>
@@ -2943,6 +3435,21 @@ return array (
   <line x1="12" y1="3" x2="12" y2="21"></line>
   <polyline points="8 8 4 12 8 16"></polyline>
   <polyline points="16 16 20 12 16 8"></polyline>
+',
+  'server-cog' => '
+  <path d="M5 10H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v4a2 2 0 0 1-2 2h-1"></path>
+  <path d="M5 14H4a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-4a2 2 0 0 0-2-2h-1"></path>
+  <path d="M6 6h.01"></path>
+  <path d="M6 18h.01"></path>
+  <circle cx="12" cy="12" r="3"></circle>
+  <path d="M12 8v1"></path>
+  <path d="M12 15v1"></path>
+  <path d="M16 12h-1"></path>
+  <path d="M9 12H8"></path>
+  <path d="m15 9-.88.88"></path>
+  <path d="M9.88 14.12 9 15"></path>
+  <path d="m15 15-.88-.88"></path>
+  <path d="M9.88 9.88 9 9"></path>
 ',
   'server-crash' => '
   <path d="M6 10H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v4a2 2 0 0 1-2 2h-2"></path>
@@ -3168,6 +3675,14 @@ return array (
   <rect x="5" y="2" width="14" height="20" rx="2" ry="2"></rect>
   <path d="M12 18h.01"></path>
 ',
+  'smile-plus' => '
+  <path d="M22 11v1a10 10 0 1 1-9-10"></path>
+  <path d="M8 14s1.5 2 4 2 4-2 4-2"></path>
+  <line x1="9" y1="9" x2="9.01" y2="9"></line>
+  <line x1="15" y1="9" x2="15.01" y2="9"></line>
+  <path d="M16 5h6"></path>
+  <path d="M19 2v6"></path>
+',
   'smile' => '
   <circle cx="12" cy="12" r="10"></circle>
   <path d="M8 14s1.5 2 4 2 4-2 4-2"></path>
@@ -3232,6 +3747,17 @@ return array (
   <path d="M4.8 2.3A.3.3 0 1 0 5 2H4a2 2 0 0 0-2 2v5a6 6 0 0 0 6 6v0a6 6 0 0 0 6-6V4a2 2 0 0 0-2-2h-1a.2.2 0 1 0 .3.3"></path>
   <path d="M8 15v1a6 6 0 0 0 6 6v0a6 6 0 0 0 6-6v-4"></path>
   <circle cx="20" cy="10" r="2"></circle>
+',
+  'sticker' => '
+  <path d="M15.5 3H5a2 2 0 0 0-2 2v14c0 1.1.9 2 2 2h14a2 2 0 0 0 2-2V8.5L15.5 3Z"></path>
+  <path d="M15 3v6h6"></path>
+  <path d="M10 16s.8 1 2 1c1.3 0 2-1 2-1"></path>
+  <path d="M8 13h0"></path>
+  <path d="M16 13h0"></path>
+',
+  'sticky-note' => '
+  <path d="M15.5 3H5a2 2 0 0 0-2 2v14c0 1.1.9 2 2 2h14a2 2 0 0 0 2-2V8.5L15.5 3Z"></path>
+  <path d="M15 3v6h6"></path>
 ',
   'stop-circle' => '
   <circle cx="12" cy="12" r="10"></circle>
@@ -3599,6 +4125,17 @@ return array (
   <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path>
   <circle cx="9" cy="7" r="4"></circle>
   <polyline points="16 11 18 13 22 9"></polyline>
+',
+  'user-cog' => '
+  <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path>
+  <circle cx="9" cy="7" r="4"></circle>
+  <circle cx="19" cy="11" r="2"></circle>
+  <path d="M19 8v1"></path>
+  <path d="M19 13v1"></path>
+  <path d="m21.6 9.5-.87.5"></path>
+  <path d="m17.27 12-.87.5"></path>
+  <path d="m21.6 12.5-.87-.5"></path>
+  <path d="m17.27 10-.87-.5"></path>
 ',
   'user-minus' => '
   <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path>
