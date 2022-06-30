@@ -2945,6 +2945,12 @@ return array (
   <path d="M5 16v-4h14v4"></path>
   <path d="M12 12V8"></path>
 ',
+  'newspaper' => '
+  <path d="M4 22h16a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H8a2 2 0 0 0-2 2v16a2 2 0 0 1-2 2Zm0 0a2 2 0 0 1-2-2v-9c0-1.1.9-2 2-2h2"></path>
+  <path d="M18 14h-8"></path>
+  <path d="M15 18h-5"></path>
+  <path d="M10 6h8v4h-8V6Z"></path>
+',
   'octagon' => '
   <polygon points="7.86 2 16.14 2 22 7.86 22 16.14 16.14 22 7.86 22 2 16.14 2 7.86 7.86 2"></polygon>
 ',
@@ -4001,6 +4007,11 @@ return array (
   <path d="M19 12H9"></path>
   <path d="M16 16h-6"></path>
   <path d="M11 20H9"></path>
+',
+  'toy-brick' => '
+  <rect x="3" y="8" width="18" height="12" rx="1"></rect>
+  <path d="M10 8V5c0-.6-.4-1-1-1H6a1 1 0 0 0-1 1v3"></path>
+  <path d="M19 8V5c0-.6-.4-1-1-1h-3a1 1 0 0 0-1 1v3"></path>
 ',
   'train' => '
   <rect x="4" y="3" width="16" height="16" rx="2"></rect>
