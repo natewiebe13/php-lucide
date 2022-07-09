@@ -2779,6 +2779,10 @@ return array (
   'message-square' => '
   <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
 ',
+  'mic-2' => '
+  <path d="m12 8-9.04 9.06a2.82 2.82 0 1 0 3.98 3.98L16 12"></path>
+  <circle cx="17" cy="7" r="5"></circle>
+',
   'mic-off' => '
   <line x1="2" y1="2" x2="22" y2="22"></line>
   <path d="M18.89 13.23A7.12 7.12 0 0 0 19 12v-2"></path>
@@ -2916,6 +2920,20 @@ return array (
   <polyline points="19 9 22 12 19 15"></polyline>
   <line x1="2" y1="12" x2="22" y2="12"></line>
   <line x1="12" y1="2" x2="12" y2="22"></line>
+',
+  'music-2' => '
+  <circle cx="8" cy="18" r="4"></circle>
+  <path d="M12 18V2l7 4"></path>
+',
+  'music-3' => '
+  <circle cx="12" cy="18" r="4"></circle>
+  <path d="M16 18V2"></path>
+',
+  'music-4' => '
+  <path d="M9 18V5l12-2v13"></path>
+  <path d="M9 9l12-2"></path>
+  <circle cx="6" cy="18" r="3"></circle>
+  <circle cx="18" cy="16" r="3"></circle>
 ',
   'music' => '
   <path d="M9 18V5l12-2v13"></path>
