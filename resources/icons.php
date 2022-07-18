@@ -11,6 +11,12 @@ return array (
   'activity' => '
   <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline>
 ',
+  'air-vent' => '
+  <path d="M6 12H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"></path>
+  <path d="M6 8h12"></path>
+  <path d="M18.3 17.7a2.5 2.5 0 0 1-3.16 3.83 2.53 2.53 0 0 1-1.14-2V12"></path>
+  <path d="M6.6 15.6A2 2 0 1 0 10 17v-5"></path>
+',
   'airplay' => '
   <path d="M5 17H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2h-1"></path>
   <polygon points="12 15 17 21 7 21 12 15"></polygon>
@@ -249,6 +255,10 @@ return array (
   <line x1="14.31" y1="16" x2="2.83" y2="16"></line>
   <line x1="16.62" y1="12" x2="10.88" y2="21.94"></line>
 ',
+  'apple' => '
+  <path d="M12 20.94c1.5 0 2.75 1.06 4 1.06 3 0 6-8 6-12.22A4.91 4.91 0 0 0 17 5c-2.22 0-4 1.44-5 2-1-.56-2.78-2-5-2a4.9 4.9 0 0 0-5 4.78C2 14 5 22 8 22c1.25 0 2.5-1.06 4-1.06Z"></path>
+  <path d="M10 2c1 .5 2 2 2 5"></path>
+',
   'archive-restore' => '
   <rect x="2" y="4" width="20" height="5" rx="2"></rect>
   <path d="M12 13v7"></path>
@@ -377,6 +387,10 @@ return array (
   <rect x="8" y="6" width="13" height="8" rx="1"></rect>
   <circle cx="18" cy="20" r="2"></circle>
   <circle cx="9" cy="20" r="2"></circle>
+',
+  'banana' => '
+  <path d="M4 13c3.5-2 8-2 10 2a5.5 5.5 0 0 1 8 5"></path>
+  <path d="M5.15 17.89c5.52-1.52 8.65-6.89 7-12C11.55 4 11.5 2 13 2c3.22 0 5 5.5 5 8 0 6.5-4.2 12-10.49 12C5.11 22 2 22 2 20c0-1.5 1.14-1.55 3.15-2.11Z"></path>
 ',
   'banknote' => '
   <rect x="2" y="6" width="20" height="12" rx="2"></rect>
@@ -829,6 +843,12 @@ return array (
   'chef-hat' => '
   <path d="M6 13.87A4 4 0 0 1 7.41 6a5.11 5.11 0 0 1 1.05-1.54 5 5 0 0 1 7.08 0A5.11 5.11 0 0 1 16.59 6 4 4 0 0 1 18 13.87V21H6Z"></path>
   <line x1="6" y1="17" x2="18" y2="17"></line>
+',
+  'cherry' => '
+  <path d="M2 17a5 5 0 0 0 10 0c0-2.76-2.5-5-5-3-2.5-2-5 .24-5 3Z"></path>
+  <path d="M12 17a5 5 0 0 0 10 0c0-2.76-2.5-5-5-3-2.5-2-5 .24-5 3Z"></path>
+  <path d="M7 14c3.22-2.91 4.29-8.75 5-12 1.66 2.38 4.94 9 5 12"></path>
+  <path d="M22 9c-4.29 0-7.14-2.33-10-7 5.71 0 10 4.67 10 7Z"></path>
 ',
   'chevron-down' => '
   <polyline points="6 9 12 15 18 9"></polyline>
@@ -1450,6 +1470,10 @@ return array (
   'edit' => '
   <path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"></path>
   <path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"></path>
+',
+  'egg-fried' => '
+  <circle cx="11.5" cy="12.5" r="3.5"></circle>
+  <path d="M3 8c0-3.5 2.5-6 6.5-6 5 0 4.83 3 7.5 5s5 2 5 6c0 4.5-2.5 6.5-7 6.5-2.5 0-2.5 2.5-6 2.5s-7-2-7-5.5c0-3 1.5-3 1.5-5C3.5 10 3 9 3 8Z"></path>
 ',
   'egg' => '
   <path d="M12 22c6.23-.05 7.87-5.57 7.5-10-.36-4.34-3.95-9.96-7.5-10-3.55.04-7.14 5.66-7.5 10-.37 4.43 1.27 9.95 7.5 10z"></path>
@@ -2219,6 +2243,17 @@ return array (
   <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
   <path d="M6 12v5c3 3 9 3 12 0v-5"></path>
 ',
+  'grape' => '
+  <path d="M22 5V2l-5.89 5.89"></path>
+  <circle cx="16.6" cy="15.89" r="3"></circle>
+  <circle cx="8.11" cy="7.4" r="3"></circle>
+  <circle cx="12.35" cy="11.65" r="3"></circle>
+  <circle cx="13.91" cy="5.85" r="3"></circle>
+  <circle cx="18.15" cy="10.09" r="3"></circle>
+  <circle cx="6.56" cy="13.2" r="3"></circle>
+  <circle cx="10.8" cy="17.44" r="3"></circle>
+  <circle cx="5" cy="19" r="3"></circle>
+',
   'grid' => '
   <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
   <line x1="3" y1="9" x2="21" y2="9"></line>
@@ -2336,6 +2371,11 @@ return array (
   <path d="M17 22v-4.172a2 2 0 0 0-.586-1.414L12 12l-4.414 4.414A2 2 0 0 0 7 17.828V22"></path>
   <path d="M7 2v4.172a2 2 0 0 0 .586 1.414L12 12l4.414-4.414A2 2 0 0 0 17 6.172V2"></path>
 ',
+  'ice-cream' => '
+  <path d="m7 11 4.08 10.35a1 1 0 0 0 1.84 0L17 11"></path>
+  <path d="M17 7A5 5 0 0 0 7 7"></path>
+  <path d="M17 7a2 2 0 0 1 0 4H7a2 2 0 0 1 0-4"></path>
+',
   'image-minus' => '
   <path d="M21 9v10a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h7"></path>
   <line x1="16" y1="5" x2="22" y2="5"></line>
@@ -2410,6 +2450,12 @@ return array (
   <path d="M12 9.5V21m0-11.5L6 3m6 6.5L18 3"></path>
   <path d="M6 15h12"></path>
   <path d="M6 11h12"></path>
+',
+  'joystick' => '
+  <path d="M21 17a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v2a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-2Z"></path>
+  <path d="M6 15v-2"></path>
+  <path d="M12 15V9"></path>
+  <circle cx="12" cy="6" r="3"></circle>
 ',
   'key' => '
   <path d="m21 2-2 2m-7.61 7.61a5.5 5.5 0 1 1-7.778 7.778 5.5 5.5 0 0 1 7.777-7.777zm0 0L15.5 7.5m0 0 3 3L22 7l-3-3m-3.5 3.5L19 4"></path>
@@ -2931,7 +2977,7 @@ return array (
 ',
   'music-4' => '
   <path d="M9 18V5l12-2v13"></path>
-  <path d="M9 9l12-2"></path>
+  <path d="m9 9 12-2"></path>
   <circle cx="6" cy="18" r="3"></circle>
   <circle cx="18" cy="16" r="3"></circle>
 ',
@@ -3170,6 +3216,13 @@ return array (
   <path d="m2 22 1-1h3l9-9"></path>
   <path d="M3 21v-3l9-9"></path>
   <path d="m15 6 3.4-3.4a2.1 2.1 0 1 1 3 3L18 9l.4.4a2.1 2.1 0 1 1-3 3l-3.8-3.8a2.1 2.1 0 1 1 3-3l.4.4Z"></path>
+',
+  'pizza' => '
+  <path d="M15 11h.01"></path>
+  <path d="M11 15h.01"></path>
+  <path d="M16 16h.01"></path>
+  <path d="m2 16 20 6-6-20c-3.36.9-6.42 2.67-8.88 5.12A19.876 19.876 0 0 0 2 16Z"></path>
+  <path d="M17 6c-6.29 1.47-9.43 5.13-11 11"></path>
 ',
   'plane' => '
   <path d="M17.8 19.2 16 11l3.5-3.5C21 6 21.5 4 21 3c-1-.5-3 0-4.5 1.5L13 8 4.8 6.2c-.5-.1-.9.1-1.1.5l-.3.5c-.2.5-.1 1 .3 1.3L9 12l-2 3H4l-1 1 3 2 2 3 1-1v-3l3-2 3.5 5.3c.3.4.8.5 1.3.3l.5-.2c.4-.3.6-.7.5-1.2z"></path>
@@ -4149,6 +4202,15 @@ return array (
   <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
   <polyline points="17 8 12 3 7 8"></polyline>
   <line x1="12" y1="3" x2="12" y2="15"></line>
+',
+  'usb' => '
+  <circle cx="4" cy="20" r="1"></circle>
+  <circle cx="10" cy="7" r="1"></circle>
+  <path d="M4 20 19 5"></path>
+  <path d="m21 3-3 1 2 2 1-3Z"></path>
+  <path d="m10 7-5 5 2 5"></path>
+  <path d="m10 14 5 2 4-4"></path>
+  <path d="m18 12 1-1 1 1-1 1-1-1Z"></path>
 ',
   'user-check' => '
   <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path>
