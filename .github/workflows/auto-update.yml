@@ -66,12 +66,12 @@ jobs:
             -   name: Create Pull Request
                 uses: peter-evans/create-pull-request@v3
                 with:
-                    commit-message: "Update resources from Lucide ${{ steps.get-lucide-version.outputs.lucide-version }}"
+                    commit-message: "Update resources from Lucide v${{ steps.get-lucide-version.outputs.lucide-version }}"
                     branch: automated/lucide-update
                     delete-branch: true
-                    title: "[AUTO] Lucide Update ${{ steps.get-lucide-version.outputs.lucide-version }}"
+                    title: "[AUTO] Lucide Update v${{ steps.get-lucide-version.outputs.lucide-version }}"
                     body: |
-                        Updated resources built based on Lucide ${{ steps.get-lucide-version.outputs.lucide-version }}.
+                        Updated resources built based on Lucide v${{ steps.get-lucide-version.outputs.lucide-version }}.
                     labels: automated pr
                     assignees: |
                         natewiebe13
