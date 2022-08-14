@@ -1237,6 +1237,12 @@ return array (
   <path d="M18.5 8.5 22 12l-3.5 3.5L15 12l3.5-3.5Z"></path>
   <path d="m12 15 3.5 3.5L12 22l-3.5-3.5L12 15Z"></path>
 ',
+  'concierge-bell' => '
+  <path d="M2 18a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v2H2v-2Z"></path>
+  <path d="M20 16a8 8 0 1 0-16 0"></path>
+  <path d="M12 4v4"></path>
+  <path d="M10 4h4"></path>
+',
   'contact' => '
   <path d="M17 18a2 2 0 0 0-2-2H9a2 2 0 0 0-2 2"></path>
   <rect x="3" y="4" width="18" height="18" rx="2"></rect>
@@ -1540,6 +1546,10 @@ return array (
   <path d="M17 18h1"></path>
   <path d="M12 18h1"></path>
   <path d="M7 18h1"></path>
+',
+  'fan' => '
+  <path d="M10.827 16.379a6.082 6.082 0 0 1-8.618-7.002l5.412 1.45a6.082 6.082 0 0 1 7.002-8.618l-1.45 5.412a6.082 6.082 0 0 1 8.618 7.002l-5.412-1.45a6.082 6.082 0 0 1-7.002 8.618l1.45-5.412Z"></path>
+  <path d="M12 12v.01"></path>
 ',
   'fast-forward' => '
   <polygon points="13 19 22 12 13 5 13 19"></polygon>
@@ -3004,6 +3014,13 @@ return array (
   <path d="M8 6h4"></path>
   <path d="M13 10V6.5a.5.5 0 0 0-.5-.5.5.5 0 0 1-.5-.5V3a1 1 0 0 0-1-1H9a1 1 0 0 0-1 1v2.5a.5.5 0 0 1-.5.5.5.5 0 0 0-.5.5V10c0 1.1.9 2 2 2h2a2 2 0 0 0 2-2Z"></path>
 ',
+  'microwave' => '
+  <rect x="2" y="4" width="20" height="15" rx="2"></rect>
+  <rect x="6" y="8" width="8" height="7" rx="1"></rect>
+  <path d="M18 8v7"></path>
+  <path d="M6 19v2"></path>
+  <path d="M18 19v2"></path>
+',
   'milestone' => '
   <path d="M18 6H5a2 2 0 0 0-2 2v3a2 2 0 0 0 2 2h13l4-3.5L18 6Z"></path>
   <path d="M12 13v9"></path>
@@ -3482,6 +3499,12 @@ return array (
   <path d="M16.24 7.76a6 6 0 0 1 1.3 2 6 6 0 0 1 0 4.59 6 6 0 0 1-1.3 1.95"></path>
   <path d="M19.07 4.93a10 10 0 0 1 0 14.14"></path>
 ',
+  'rectangle-horizontal' => '
+  <rect x="2" y="6" width="20" height="12" rx="2"></rect>
+',
+  'rectangle-vertical' => '
+  <rect x="6" y="2" width="12" height="20" rx="2"></rect>
+',
   'recycle' => '
   <path d="M7 19H4.815a1.83 1.83 0 0 1-1.57-.881 1.785 1.785 0 0 1-.004-1.784L7.196 9.5"></path>
   <path d="M11 19h8.203a1.83 1.83 0 0 0 1.556-.89 1.784 1.784 0 0 0 0-1.775l-1.226-2.12"></path>
@@ -3509,6 +3532,11 @@ return array (
   <path d="M3 12a9 9 0 0 1 15-6.7L21 8"></path>
   <path d="M3 22v-6h6"></path>
   <path d="M21 12a9 9 0 0 1-15 6.7L3 16"></path>
+',
+  'refrigerator' => '
+  <path d="M5 6a4 4 0 0 1 4-4h6a4 4 0 0 1 4 4v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6Z"></path>
+  <path d="M5 10h14"></path>
+  <path d="M15 7v6"></path>
 ',
   'regex' => '
   <path d="M17 3v10"></path>
@@ -3781,6 +3809,18 @@ return array (
   <path d="M2 22v-5l5-5 5 5-5 5z"></path>
   <path d="M9.5 14.5 16 8"></path>
   <path d="m17 2 5 5-.5.5a3.53 3.53 0 0 1-5 0s0 0 0 0a3.53 3.53 0 0 1 0-5L17 2"></path>
+',
+  'shower-head' => '
+  <path d="m4 4 2.5 2.5"></path>
+  <path d="M13.5 6.5a4.95 4.95 0 0 0-7 7"></path>
+  <path d="M15 5 5 15"></path>
+  <path d="M14 17v.01"></path>
+  <path d="M10 16v.01"></path>
+  <path d="M13 13v.01"></path>
+  <path d="M16 10v.01"></path>
+  <path d="M11 20v.01"></path>
+  <path d="M17 14v.01"></path>
+  <path d="M20 11v.01"></path>
 ',
   'shrink' => '
   <path d="m15 15 6 6m-6-6v4.8m0-4.8h4.8"></path>
