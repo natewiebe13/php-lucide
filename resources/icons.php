@@ -335,6 +335,12 @@ return array (
   <polyline points="16 12 12 8 8 12"></polyline>
   <line x1="12" y1="16" x2="12" y2="8"></line>
 ',
+  'arrow-up-down' => '
+  <polyline points="11 17 7 21 3 17"></polyline>
+  <line x1="7" y1="21" x2="7" y2="9"></line>
+  <polyline points="21 7 17 3 13 7"></polyline>
+  <line x1="17" y1="15" x2="17" y2="3"></line>
+',
   'arrow-up-left' => '
   <line x1="17" y1="17" x2="7" y2="7"></line>
   <polyline points="7 17 7 7 17 7"></polyline>
@@ -3613,6 +3619,11 @@ return array (
   <path d="M6 15h8"></path>
   <path d="M9 21V3"></path>
   <path d="M9 3h5"></path>
+',
+  'sailboat' => '
+  <path d="M22 18H2a4 4 0 0 0 4 4h12a4 4 0 0 0 4-4Z"></path>
+  <path d="M21 14 10 2 3 14h18Z"></path>
+  <path d="M10 2v16"></path>
 ',
   'save' => '
   <path d="M19 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11l5 5v11a2 2 0 0 1-2 2z"></path>
