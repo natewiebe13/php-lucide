@@ -574,6 +574,11 @@ return array (
   'bone' => '
   <path d="M18.6 9.82c-.52-.21-1.15-.25-1.54.15l-7.07 7.06c-.39.39-.36 1.03-.15 1.54.12.3.16.6.16.93a2.5 2.5 0 0 1-5 0c0-.26-.24-.5-.5-.5a2.5 2.5 0 1 1 .96-4.82c.5.21 1.14.25 1.53-.15l7.07-7.06c.39-.39.36-1.03.15-1.54-.12-.3-.21-.6-.21-.93a2.5 2.5 0 0 1 5 0c.01.26.24.49.5.5a2.5 2.5 0 1 1-.9 4.82Z"></path>
 ',
+  'book-open-check' => '
+  <path d="M8 3H2v15h7c1.7 0 3 1.3 3 3V7c0-2.2-1.8-4-4-4Z"></path>
+  <path d="m16 12 2 2 4-4"></path>
+  <path d="M22 6V3h-6c-2.2 0-4 1.8-4 4v14c0-1.7 1.3-3 3-3h7v-2.3"></path>
+',
   'book-open' => '
   <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path>
   <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path>
@@ -3411,6 +3416,13 @@ return array (
   'play' => '
   <polygon points="5 3 19 12 5 21 5 3"></polygon>
 ',
+  'plug-2' => '
+  <path d="M9 2v6"></path>
+  <path d="M15 2v6"></path>
+  <path d="M12 17v5"></path>
+  <path d="M5 8h14"></path>
+  <path d="M6 11V8h12v3a6 6 0 1 1-12 0v0Z"></path>
+',
   'plug-zap' => '
   <path d="m13 2-2 2.5h3L12 7"></path>
   <path d="M12 22v-3"></path>
@@ -3418,6 +3430,12 @@ return array (
   <path d="M10 12.5v-2"></path>
   <path d="M14 12.5v-2"></path>
   <path d="M16 15a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2a2 2 0 0 0 2 2h4a2 2 0 0 0 2-2v-2z"></path>
+',
+  'plug' => '
+  <path d="M12 22v-5"></path>
+  <path d="M9 7V2"></path>
+  <path d="M15 7V2"></path>
+  <path d="M6 13V8h12v5a4 4 0 0 1-4 4h-4a4 4 0 0 1-4-4Z"></path>
 ',
   'plus-circle' => '
   <circle cx="12" cy="12" r="10"></circle>
