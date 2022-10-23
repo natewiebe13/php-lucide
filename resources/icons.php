@@ -3914,7 +3914,6 @@ return array (
 ',
   'signal-zero' => '
   <path d="M2 20h.01"></path>
-  <path d="M7 20v-4"></path>
 ',
   'signal' => '
   <path d="M2 20h.01"></path>
@@ -4026,11 +4025,11 @@ return array (
   <path d="M12 4v9"></path>
 ',
   'sort-asc' => '
-  <path d="M11 5h4"></path>
-  <path d="M11 9h7"></path>
-  <path d="M11 13h10"></path>
-  <path d="m3 17 3 3 3-3"></path>
-  <path d="M6 18V4"></path>
+  <path d="M11 11H15"></path>
+  <path d="M11 15H18"></path>
+  <path d="M11 19H21"></path>
+  <path d="M9 7L6 4L3 7"></path>
+  <path d="M6 6L6 20"></path>
 ',
   'sort-desc' => '
   <path d="M11 5h10"></path>
