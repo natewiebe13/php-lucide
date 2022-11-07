@@ -22,7 +22,7 @@ function getSvgAttributes(string $svg): array
 
 function getSvgContents(string $svg): string
 {
-    $icon = new SimpleXMLElement($svg);
+    $icon = new SimpleXMLElement($svg, LIBXML_NOBLANKS);
 
     $doc = new DOMDocument('1.0', 'UTF-8');
 
