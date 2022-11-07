@@ -71,7 +71,7 @@ jobs:
                     delete-branch: true
                     title: "[AUTO] Lucide Update v${{ steps.get-lucide-version.outputs.lucide-version }}"
                     body: |
-                        Updated resources built based on Lucide v${{ steps.get-lucide-version.outputs.lucide-version }}.
+                        Updated resources built based on Lucide v${{ steps.get-lucide-version.outputs.lucide-version }}
                     labels: automated pr
                     assignees: |
                         natewiebe13
