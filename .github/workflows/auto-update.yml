@@ -15,7 +15,7 @@ jobs:
 
         steps:
             -   name: Checkout
-                uses: actions/checkout@v2
+                uses: actions/checkout@v3
                 with:
                     ssh-key: ${{ secrets.SSH_KEY_PRIVATE }}
 
@@ -38,7 +38,7 @@ jobs:
 
             -   name: Cache Composer packages
                 id: composer-cache
-                uses: actions/cache@v2
+                uses: actions/cache@v3
                 with:
                     path: vendor
                     key: 8.0-composer-${{ hashFiles('**/composer.lock') }}
