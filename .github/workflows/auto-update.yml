@@ -49,7 +49,7 @@ jobs:
 
             -   name: Get Lucide version
                 id: get-lucide-version
-                run: echo "::set-output name=lucide-version::$(curl -s https://api.npms.io/v2/package/lucide | jq -r '.collected.metadata.version')"
+                run: echo "::set-output name=lucide-version::$(curl -s https://api.github.com/repos/lucide-icons/lucide/releases/latest | jq -r '.tag_name')"
 
             -   name: Init git submodule
                 run: git submodule init
@@ -58,7 +58,7 @@ jobs:
                 run: git submodule update
 
             -   name: Checkout latest version
-                run: git -C lucide checkout "v${{ steps.get-lucide-version.outputs.lucide-version }}"
+                run: git -C lucide checkout "${{ steps.get-lucide-version.outputs.lucide-version }}"
 
             -   name: Build files
                 run: composer run-script build
@@ -66,12 +66,12 @@ jobs:
             -   name: Create Pull Request
                 uses: peter-evans/create-pull-request@v3
                 with:
-                    commit-message: "Update resources from Lucide v${{ steps.get-lucide-version.outputs.lucide-version }}"
+                    commit-message: "Update resources from Lucide ${{ steps.get-lucide-version.outputs.lucide-version }}"
                     branch: automated/lucide-update
                     delete-branch: true
-                    title: "[AUTO] Lucide Update v${{ steps.get-lucide-version.outputs.lucide-version }}"
+                    title: "[AUTO] Lucide Update ${{ steps.get-lucide-version.outputs.lucide-version }}"
                     body: |
-                        Updated resources built based on Lucide v${{ steps.get-lucide-version.outputs.lucide-version }}
+                        Updated resources built based on Lucide ${{ steps.get-lucide-version.outputs.lucide-version }}
                     labels: automated pr
                     assignees: |
                         natewiebe13
