@@ -49,8 +49,7 @@ jobs:
                 run: composer install --prefer-dist --no-progress
 
             -   name: Get Lucide version
-                id: get-lucide-version
-                run: echo "::set-output name=lucide-version::$(curl -s https://api.github.com/repos/lucide-icons/lucide/releases/latest | jq -r '.tag_name')"
+                run: echo "lucide_version=$(curl -s https://api.github.com/repos/lucide-icons/lucide/releases/latest | jq -r '.tag_name')" >> $GITHUB_ENV
 
             -   name: Init git submodule
                 run: git submodule init
@@ -59,7 +58,7 @@ jobs:
                 run: git submodule update
 
             -   name: Checkout latest version
-                run: git -C lucide checkout "${{ steps.get-lucide-version.outputs.lucide-version }}"
+                run: git -C lucide checkout "${{ env.lucide_version }}"
 
             -   name: Build files
                 run: composer run-script build
@@ -67,12 +66,12 @@ jobs:
             -   name: Create Pull Request
                 uses: peter-evans/create-pull-request@v3
                 with:
-                    commit-message: "Update resources from Lucide ${{ steps.get-lucide-version.outputs.lucide-version }}"
+                    commit-message: "Update resources from Lucide ${{ env.lucide_version }}"
                     branch: automated/lucide-update
                     delete-branch: true
-                    title: "[AUTO] Lucide Update ${{ steps.get-lucide-version.outputs.lucide-version }}"
+                    title: "[AUTO] Lucide Update ${{ env.lucide_version }}"
                     body: |
-                        Updated resources built based on Lucide ${{ steps.get-lucide-version.outputs.lucide-version }}
+                        Updated resources built based on Lucide ${{ env.lucide_version }}
                     labels: automated pr
                     assignees: |
                         natewiebe13
