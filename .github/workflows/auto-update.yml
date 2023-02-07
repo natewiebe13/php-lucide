@@ -24,7 +24,7 @@ jobs:
                     coverage: 'none'
                     extensions: 'json,xml,xsl'
                     ini-values: 'memory_limit=-1'
-                    php-version: '8.0'
+                    php-version: '8.2'
                     tools: pecl
 
             -   name: Display versions
