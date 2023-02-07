@@ -1,6 +1,8 @@
 #!/usr/bin/env php
 <?php
 
+require_once dirname(__DIR__) . '/vendor/autoload.php';
+
 function getSvgAttributes(string $svg): array
 {
     $attributes = [];
@@ -44,7 +46,7 @@ function writeAttributes(array $attributes): void
 {
     global $rootDir;
 
-    $export = var_export($attributes, true);
+    $export = Symfony\Component\VarExporter\VarExporter::export($attributes);
 
     file_put_contents(
         implode(DIRECTORY_SEPARATOR, [$rootDir, 'resources', 'attributes.php']),
@@ -61,7 +63,7 @@ function writeIcons(array $icons): void
 {
     global $rootDir;
 
-    $export = var_export($icons, true);
+    $export = Symfony\Component\VarExporter\VarExporter::export($icons);
 
     file_put_contents(
         implode(DIRECTORY_SEPARATOR, [$rootDir, 'resources', 'icons.php']),

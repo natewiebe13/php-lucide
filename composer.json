@@ -27,7 +27,8 @@
         "ext-json": "*",
         "ext-libxml": "*",
         "ext-simplexml": "*",
-        "phpunit/phpunit": "^9.5"
+        "phpunit/phpunit": "^9.5",
+        "symfony/var-exporter": "^6.2"
     },
     "scripts": {
         "build": "bin/build",
